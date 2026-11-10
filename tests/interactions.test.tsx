@@ -1,0 +1,20 @@
+// @vitest-environment jsdom
+import 'fake-indexeddb/auto';
+import {beforeEach,afterEach,describe,it,expect,vi} from 'vitest';
+import {render,screen,cleanup,fireEvent} from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import {MemoryRouter,Routes,Route} from 'react-router-dom';
+import {QuestionCard} from '../src/components/QuestionCard';
+import {Lesson} from '../src/pages/Lesson';
+import {Layout} from '../src/components/Layout';
+import {useStore} from '../src/lib/store';
+import {lessons,questions} from '../src/content';
+beforeEach(()=>{useStore.getState().reset();window.scrollTo=vi.fn();});
+afterEach(cleanup);
+describe('взаимодействия с учебными компонентами в jsdom',()=>{
+ it('проверяет выбранный ответ, объясняет ошибку и назначает повторение',async()=>{const q=questions.find(q=>q.type==='single')!;const wrong=q.options!.find(o=>!q.answer.includes(o))!;render(<QuestionCard question={q}/>);await userEvent.click(screen.getByRole('button',{name:new RegExp(wrong.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'))}));await userEvent.click(screen.getByRole('button',{name:'Проверить ответ'}));expect(screen.getByText('Попробуем разобраться')).toBeTruthy();expect(screen.getByText(q.explanation)).toBeTruthy();expect(useStore.getState().history.at(-1)?.correct).toBe(false);expect(useStore.getState().reviews[q.id].interval).toBe(0);});
+ it('не выдаёт свободному ответу автоматическую оценку',async()=>{const q=questions.find(q=>q.type==='text')!;render(<QuestionCard question={q}/>);await userEvent.type(screen.getByRole('textbox'),q.answer[0]);await userEvent.click(screen.getByRole('button',{name:'Сравнить с разбором'}));expect(useStore.getState().history).toHaveLength(0);expect(screen.getAllByText(q.answer[0]).length).toBeGreaterThan(0);await userEvent.click(screen.getByRole('button',{name:'Суть совпала'}));expect(useStore.getState().history[0].selfAssessed).toBe(true);});
+ it('проверяет множественный выбор как множество',async()=>{const q=questions.find(q=>q.type==='multiple')!;render(<QuestionCard question={q}/>);for(const answer of q.answer)await userEvent.click(screen.getByRole('button',{name:answer}));await userEvent.click(screen.getByRole('button',{name:'Проверить ответ'}));expect(screen.getByText('Верно. Вы поняли главное.')).toBeTruthy();expect(useStore.getState().history[0].correct).toBe(true);});
+ it('переключает реальное содержание урока, сохраняет закладку и завершение',async()=>{const lesson=lessons[0];render(<MemoryRouter initialEntries={[`/lesson/${lesson.id}`]}><Routes><Route path="lesson/:id" element={<Lesson/>}/></Routes></MemoryRouter>);expect(screen.getByRole('heading',{name:lesson.sections[0].title})).toBeTruthy();await userEvent.click(screen.getByRole('button',{name:'Глубокое погружение'}));expect(screen.getByRole('heading',{name:lesson.deep.title})).toBeTruthy();expect(screen.queryByRole('heading',{name:lesson.sections[0].title})).toBeNull();await userEvent.click(screen.getByRole('button',{name:'Сохранить закладку'}));expect(useStore.getState().bookmarks).toContain(lesson.id);await userEvent.click(screen.getByRole('button',{name:'Мои заметки'}));fireEvent.change(screen.getByRole('textbox',{name:'Заметка к уроку'}),{target:{value:'Проверить датировку'}});expect(useStore.getState().notes[lesson.id]).toBe('Проверить датировку');await userEvent.click(screen.getByRole('button',{name:'Отметить изученным'}));expect(useStore.getState().completed).toContain(lesson.id);});
+ it('глобальный поиск находит урок по дате и открывает его',async()=>{render(<MemoryRouter><Routes><Route element={<Layout/>}><Route index element={<div>Стартовая страница</div>}/><Route path="lesson/:id" element={<div>Открыт найденный урок</div>}/></Route></Routes></MemoryRouter>);await userEvent.type(screen.getByRole('textbox',{name:'Глобальный поиск'}),'988');const result=screen.getByRole('button',{name:'Урок: Крещение Руси'});await userEvent.click(result);expect(screen.getByText('Открыт найденный урок')).toBeTruthy();expect(screen.queryByText('Стартовая страница')).toBeNull();});
+});

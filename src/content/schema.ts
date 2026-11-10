@@ -1,0 +1,9 @@
+import {z} from 'zod';
+export const questionSchema=z.object({id:z.string(),type:z.enum(['single','multiple','order','match','text','source','map','cause']),prompt:z.string().min(12),options:z.array(z.string()).optional(),answer:z.array(z.string()).min(1),explanation:z.string().min(25),sourceExcerpt:z.string().optional(),selfAssessed:z.boolean().optional()});
+export const lessonSchema=z.object({id:z.string().regex(/^\d{2}-\d{3}$/),title:z.string(),eraId:z.string(),module:z.string(),order:z.number(),description:z.string().min(40),goals:z.array(z.string()).min(2),simple:z.string().min(200),sections:z.array(z.object({title:z.string(),paragraphs:z.array(z.string()).min(1)})).min(5),deep:z.object({title:z.string(),text:z.string().min(200),question:z.string()}),summary:z.array(z.string()).min(3),dates:z.array(z.object({year:z.number(),label:z.string(),detail:z.string(),category:z.enum(['Политика','Войны','Экономика','Культура','Общество','Наука'])})).min(2),people:z.array(z.string()),terms:z.array(z.string()),mapPoints:z.array(z.string()),sources:z.array(z.string()).min(2),questions:z.array(questionSchema).min(3),status:z.enum(['written','checked','ready']),reviewNote:z.string(),updatedAt:z.string(),media:z.array(z.string()).default([])});
+export type Lesson=z.infer<typeof lessonSchema>;
+export type Question=z.infer<typeof questionSchema>;
+export type Status='planned'|'written'|'checked'|'ready';
+export type CurriculumEntry={id:string;eraId:string;module:string;order:number;title:string;status:Status;goal:string;expected:string;events:string;visuals:string;exercises:string};
+export type Era={id:string;title:string;period:string;color:string;order:number;description:string};
+export type Source={id:string;title:string;author:string;kind:'Первичный источник'|'Исследование'|'Энциклопедия'|'Учебное издание'|'Данные';url:string;note:string;checkedAt?:string};

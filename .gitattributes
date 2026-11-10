@@ -1,0 +1,2 @@
+# Preserve upstream font license text verbatim, including its formatting.
+public/assets/*-LICENSE.txt -whitespace

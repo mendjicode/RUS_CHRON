@@ -1,0 +1,21 @@
+import {describe,it,expect} from 'vitest';
+import {renderToString} from 'react-dom/server';
+import {MemoryRouter,Routes,Route} from 'react-router-dom';
+import {Dashboard} from '../src/pages/Dashboard';
+import {Course} from '../src/pages/Course';
+import {Lesson} from '../src/pages/Lesson';
+import {Atlas} from '../src/pages/Atlas';
+import {Timeline} from '../src/pages/Timeline';
+import {Dictionary,People,About,Bookmarks} from '../src/pages/Reference';
+import {Practice} from '../src/pages/Practice';
+import {Settings} from '../src/pages/Settings';
+import {QuestionCard} from '../src/components/QuestionCard';
+import {lessons,questions,curriculum} from '../src/content';
+const render=(component:React.ReactNode,path='/')=>renderToString(<MemoryRouter initialEntries={[path]}><Routes><Route path="*" element={component}/></Routes></MemoryRouter>);
+describe('структурная проверка страниц (SSR, не браузер)',()=>{
+ const pages=[['Главная',<Dashboard/>,'Большая история'],['Курс',<Course/>,'Мой курс'],['Атлас',<Atlas/>,'Исторический атлас'],['Хронология',<Timeline/>,'Лента времени'],['Личности',<People/>,'Исторические личности'],['Словарь',<Dictionary/>,'Исторический словарь'],['Тренировка',<Practice/>,'Тренировка'],['Настройки',<Settings/>,'Настройки'],['Источники',<About/>,'Источники и подготовка'],['Закладки',<Bookmarks/>,'Моя библиотека']] as const;
+ for(const [name,component,text] of pages)it(`${name}: формирует непустую русскую страницу`,()=>expect(render(component)).toContain(text));
+ for(const lesson of lessons)it(`урок ${lesson.id}: выводит собственный текст и источники`,()=>{const html=renderToString(<MemoryRouter initialEntries={[`/lesson/${lesson.id}`]}><Routes><Route path="/lesson/:id" element={<Lesson/>}/></Routes></MemoryRouter>);expect(html).toContain(lesson.title);expect(html).toContain(lesson.sections[0].title);expect(html).toContain('Источники и проверка');});
+ it('не выдаёт план за доступный текст',()=>{const html=render(<Course/>);const planned=curriculum.find(l=>l.status==='planned')!;expect(html).toContain(planned.title);expect(html).not.toContain(`href="/lesson/${planned.id}"`);});
+ it('каждый реализованный вид вопроса формирует интерфейс',()=>{for(const type of new Set(questions.map(q=>q.type))){const q=questions.find(q=>q.type===type)!;expect(render(<QuestionCard question={q}/>)).toContain(q.prompt);}});
+});

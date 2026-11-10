@@ -1,0 +1,17 @@
+import eraData from './eras.json';
+import curriculumData from './curriculum.json';
+import termData from './terms.json';
+import peopleData from './people.json';
+import {lessonSchema} from './schema';
+import type {Lesson,Era,CurriculumEntry} from './schema';
+const files=import.meta.glob('./lessons/*.json',{eager:true,import:'default'});
+export const lessons:Lesson[]=Object.values(files).map(v=>lessonSchema.parse(v)).sort((a,b)=>a.id.localeCompare(b.id));
+export const lessonById:Partial<Record<string,Lesson>>=Object.fromEntries(lessons.map(l=>[l.id,l]));
+export const eras=eraData as Era[];
+export const curriculum=(curriculumData as CurriculumEntry[]).map<CurriculumEntry>(l=>({...l,status:lessonById[l.id]?.status??'planned'}));
+export const terms=termData;
+export const people=peopleData;
+export const statuses={planned:'Запланирован',written:'Написан · ожидает проверки',checked:'Проверен по источникам',ready:'Готов к изучению'};
+export const questions=lessons.flatMap(l=>l.questions.map(q=>({...q,lessonId:l.id,lessonTitle:l.title,eraId:l.eraId})));
+export const events=lessons.flatMap(l=>l.dates.map((e,i)=>({...e,id:`${l.id}-e${i}`,lessonId:l.id,lessonTitle:l.title,eraId:l.eraId}))).sort((a,b)=>a.year-b.year);
+export const readingMinutes=(l:Lesson)=>Math.max(1,Math.ceil([l.simple,...l.sections.flatMap(s=>s.paragraphs),l.deep.text].join(' ').split(/\s+/).length/150));

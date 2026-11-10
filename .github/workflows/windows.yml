@@ -1,0 +1,32 @@
+name: Windows installer
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Quality checks']
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  windows:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push')
+    runs-on: windows-latest
+    env:
+      CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run dist:win
+      - run: npm run verify:dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rus-chron-windows
+          path: release/*.exe
+          if-no-files-found: error
+          retention-days: 14
