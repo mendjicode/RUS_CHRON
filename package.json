@@ -13,7 +13,7 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "docs:content": "tsx scripts/content-docs.ts",
     "desktop": "npm run build && electron .",
-    "dist:win": "npm run build && electron-builder --win nsis",
+    "dist:win": "npm run build && electron-builder --win nsis --publish never",
     "check": "npm run validate:content && npm test && npm run build",
     "verify:dist": "tsx scripts/verify-dist.ts"
   },
