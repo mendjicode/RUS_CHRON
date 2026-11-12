@@ -1,0 +1,3 @@
+import {defineConfig} from '@playwright/test';
+const stamp=new Date().toISOString().replace(/[:.]/g,'-');
+export default defineConfig({testDir:'./browser-tests',testMatch:'**/*.e2e.ts',fullyParallel:false,workers:1,retries:0,timeout:60000,outputDir:`tasks/001-russian-history-course/qa/${stamp}`,reporter:'list',use:{baseURL:'http://127.0.0.1:4173',headless:true,viewport:{width:1440,height:1000},locale:'ru-RU',timezoneId:'Europe/Moscow',launchOptions:{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH},trace:'retain-on-failure'},webServer:{command:'npm run preview -- --port 4173 --strictPort',url:'http://127.0.0.1:4173',reuseExistingServer:!process.env.CI,timeout:60000}});

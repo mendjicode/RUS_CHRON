@@ -24,6 +24,26 @@ jobs:
       - run: npm ci
       - run: npm run dist:win
       - run: npm run verify:dist
+      - name: Install NSIS package and verify application and local storage
+        shell: pwsh
+        run: |
+          $installer = Get-ChildItem release/*.exe | Select-Object -First 1
+          $installDir = Join-Path $env:RUNNER_TEMP "rus-chron-installed-$env:GITHUB_RUN_ID"
+          $installProcess = Start-Process -FilePath $installer.FullName -ArgumentList @('/S', "/D=$installDir") -PassThru -Wait
+          if ($installProcess.ExitCode -ne 0) { throw "Installer failed: $($installProcess.ExitCode)" }
+          $desktopExe = Get-ChildItem "$installDir/*.exe" | Where-Object { $_.Name -notlike 'Uninstall*' } | Select-Object -First 1
+          if (!$desktopExe) { throw 'Installed application executable missing' }
+          $smokeReport = Join-Path $env:RUNNER_TEMP 'rus-chron-desktop-smoke.json'
+          $desktopProcess = Start-Process -FilePath $desktopExe.FullName -ArgumentList @('--smoke-test', "--smoke-report=$smokeReport") -PassThru -Wait
+          if (Test-Path $smokeReport) { Get-Content $smokeReport }
+          if ($desktopProcess.ExitCode -ne 0) { throw "Desktop smoke failed: $($desktopProcess.ExitCode)" }
+          if (!(Test-Path $smokeReport)) { throw 'Desktop smoke report missing' }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rus-chron-windows-checks
+          path: ${{ runner.temp }}/rus-chron-desktop-smoke.json
+          retention-days: 14
       - uses: actions/upload-artifact@v4
         with:
           name: rus-chron-windows

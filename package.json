@@ -15,7 +15,12 @@
     "desktop": "npm run build && electron .",
     "dist:win": "npm run build && electron-builder --win nsis --publish never",
     "check": "npm run validate:content && npm test && npm run build",
-    "verify:dist": "tsx scripts/verify-dist.ts"
+    "verify:dist": "tsx scripts/verify-dist.ts",
+    "predev": "tsx scripts/build-source-manifest.ts && tsx scripts/validate-content.ts",
+    "prebuild": "tsx scripts/build-source-manifest.ts && tsx scripts/validate-content.ts",
+    "pretest": "tsx scripts/build-source-manifest.ts",
+    "prevalidate:content": "tsx scripts/build-source-manifest.ts",
+    "test:browser": "playwright test"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.0",
@@ -32,6 +37,7 @@
     "zustand": "^5.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.0",
     "@testing-library/react": "^16.3.3",
     "@testing-library/user-event": "^14.6.9",
     "@types/d3-geo": "^3.1.0",
@@ -65,12 +71,15 @@
     "win": {
       "target": [
         "nsis"
-      ]
+      ],
+      "icon": "build/icon.ico"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true
+      "createDesktopShortcut": true,
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico"
     }
   }
 }

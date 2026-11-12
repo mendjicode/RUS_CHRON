@@ -7,3 +7,17 @@ work/
 !.env.example
 .DS_Store
 *.tsbuildinfo
+
+# Python helper cache is not source material.
+__pycache__/
+*.pyc
+
+# Browser traces stay in the existing task folder; selected screenshots are documented separately.
+tasks/001-russian-history-course/qa/
+
+# Unselected atlas research candidates and downloaded research caches stay local.
+tasks/001-russian-history-course/atlas-research/
+tasks/001-russian-history-course/research-ancient-cache/
+
+# Downloaded third-party research text is retained locally, not republished.
+tasks/001-russian-history-course/source-early-modern-*.txt

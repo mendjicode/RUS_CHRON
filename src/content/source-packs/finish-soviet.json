@@ -1,0 +1,74 @@
+[
+  {
+    "id": "finish-sov-archives",
+    "title": "Revelations from the Russian Archives: Internal Workings of the Soviet Union",
+    "author": "Library of Congress",
+    "kind": "Первичный источник",
+    "url": "https://www.loc.gov/exhibits/archives/intn.html",
+    "note": "Архивная выставка: документы и редакторские пояснения о лагерях, депортациях, цензуре и перестройке. Прочитаны доступные пояснения; ранняя интерпретация выставки не заменяет современную историографию.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "finish-sov-gulag",
+    "title": "The GULAG in People’s Lives and the National History",
+    "author": "Архив Музея истории ГУЛАГа",
+    "kind": "Учебное издание",
+    "url": "https://gmig.gulagmemory.org/en/exhibition/",
+    "note": "Прочитаны разделы о Соловках, принудительном труде и лагерной системе. На дату проверки сайт сам обозначен как архив музея; сведения об учреждениях следует проверять отдельно.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "finish-sov-lendlease",
+    "title": "Lend-Lease Act (1941)",
+    "author": "National Archives, США",
+    "kind": "Первичный источник",
+    "url": "https://www.archives.gov/milestone-documents/lend-lease-act",
+    "note": "Прочитаны введение и начало текста закона; подтверждены 11 марта 1941 года и правовой механизм. Не подтверждает долю помощи в советском производстве.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "finish-sov-alliance",
+    "title": "U.S.-Soviet Alliance, 1941–1945",
+    "author": "Office of the Historian, US Department of State",
+    "kind": "Учебное издание",
+    "url": "https://history.state.gov/milestones/1937-1945/us-soviet",
+    "note": "Поисковая выдача подтверждает обсуждение распространения помощи на СССР; институциональная американская перспектива, полный текст в этой проверке не изучен.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "finish-sov-end",
+    "title": "The End of the Soviet Union 1991",
+    "author": "Svetlana Savranskaya, Thomas Blanton; National Security Archive, 2021",
+    "kind": "Первичный источник",
+    "url": "https://nsarchive.gwu.edu/briefing-book/russia-programs/2021-12-21/end-soviet-union-1991",
+    "note": "Прочитано введение к документам 1991 года. Сопоставляются переговоры о Союзе и международная позиция; весь комплект приложенных документов не изучен.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "finish-sov-rights",
+    "title": "Human Rights Movement: 1969–1979",
+    "author": "American Institute of Physics, Sakharov Web Exhibit",
+    "kind": "Учебное издание",
+    "url": "https://history.aip.org/exhibits/sakharov/human-rights.html",
+    "note": "Прочитана биографическая страница: правозащитный комитет 1970 года, различия позиций Сахарова и Солженицына, Нобелевская премия 1975 года. Не представляет всех диссидентских течений.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "finish-sov-unscear",
+    "title": "The Chornobyl Accident",
+    "author": "United Nations Scientific Committee on the Effects of Atomic Radiation",
+    "kind": "Исследование",
+    "url": "https://www.unscear.org/unscear/en/areas-of-work/chernobyl.html",
+    "note": "Открыта тематическая страница и проверены ссылки на обзоры последствий. Дополняет архивную страницу WHO 2011 года; не считается новой полной экспертизой медицинских исследований.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "finish-sov-helsinki",
+    "title": "Helsinki Final Act, 1 August 1975",
+    "author": "Conference on Security and Co-operation in Europe / OSCE",
+    "kind": "Первичный источник",
+    "url": "https://www.osce.org/helsinki-final-act",
+    "note": "Проверены дата и официальный источник Заключительного акта. Документ фиксирует международные обязательства, но не доказывает их исполнение советскими властями.",
+    "checkedAt": "2026-11-12"
+  }
+]

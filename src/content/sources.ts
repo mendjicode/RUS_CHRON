@@ -1,3 +1,4 @@
+import additionalSources from './source-packs.generated.json';
 import type {Source} from './schema';
 const reviewed='2026-11-10';
 export const sources:Source[]=[
@@ -36,4 +37,5 @@ export const sources:Source[]=[
 ];
 sources.push({id:'crisis1998',title:'The Russian Financial Crisis of 1998: An Analysis of Trends, Causes, and Implications',author:'Congressional Research Service, 1999',kind:'Исследование',url:'https://www.everycrsreport.com/reports/98-578.html',note:'Аналитический отчёт о причинах и последствиях кризиса 1998 года.',checkedAt:reviewed});
 sources.push({id:'stalingrad',title:'Stalingrad: Experimentation, Adaptation, Implementation',author:'The National WWII Museum',kind:'Исследование',url:'https://www.nationalww2museum.org/war/articles/stalingrad-experimentation-adaptation-implementation',note:'Музейный исследовательский материал о ходе битвы и изменении советской тактики. Детальная сверка всех дат урока ещё не завершена.',checkedAt:reviewed});
+sources.push(...(additionalSources as Source[]));
 export const sourceById=Object.fromEntries(sources.map(s=>[s.id,s]));

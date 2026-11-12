@@ -1,0 +1,41 @@
+[
+  {
+    "personName": "Пётр I",
+    "file": "assets/portraits/peter.jpg",
+    "title": "Пётр I",
+    "creator": "Годфри Кнеллер",
+    "date": "1698",
+    "context": "Прижизненный официальный портрет, написанный во время пребывания Петра в Англии. Атрибуты монарха выражают замысел художника и заказчика.",
+    "collection": "Royal Collection, RCIN 405645",
+    "url": "https://commons.wikimedia.org/wiki/File:Peter_I_by_Kneller.jpg",
+    "catalogueUrl": "https://www.rct.uk/collection/405645/peter-the-great-tsar-of-russia-1672-1725",
+    "license": "Public domain / PD-Art",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "personName": "Екатерина II",
+    "file": "assets/portraits/catherine2.jpg",
+    "title": "Портрет Екатерины II",
+    "creator": "Фёдор Рокотов",
+    "date": "1763",
+    "context": "Прижизненный парадный портрет. Регалии и поза — художественное представление о монархической власти, а не повседневная сцена.",
+    "collection": "Государственная Третьяковская галерея",
+    "url": "https://commons.wikimedia.org/wiki/File:Profile_portrait_of_Catherine_II_by_Fedor_Rokotov_(1763,_Tretyakov_gallery).jpg",
+    "catalogueUrl": "https://commons.wikimedia.org/wiki/File:Profile_portrait_of_Catherine_II_by_Fedor_Rokotov_(1763,_Tretyakov_gallery).jpg",
+    "license": "Public domain / PD-Art",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "personName": "Михаил Кутузов",
+    "file": "assets/portraits/kutuzov.jpg",
+    "title": "Портрет Михаила Кутузова",
+    "creator": "Неизвестный художник",
+    "date": "XIX век",
+    "context": "В карточке репродукции автор и точный год не установлены. Прижизненность изображения не подтверждена; это иконографический материал, а не свидетельство очевидца.",
+    "collection": "Местонахождение оригинала в карточке не установлено",
+    "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Mikhail_Kutuzov.jpg",
+    "catalogueUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Mikhail_Kutuzov.jpg",
+    "license": "Public domain / PD-Art",
+    "checkedAt": "2026-11-12"
+  }
+]

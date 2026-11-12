@@ -1,0 +1,164 @@
+[
+  {
+    "id": "med-rus",
+    "title": "Regional Centers: план университетской лекции",
+    "author": "Daniel C. Waugh, University of Washington",
+    "kind": "Учебное издание",
+    "url": "https://faculty.washington.edu/dwaugh/hstam443/04443lec7.html",
+    "note": "Прочитан план лекции: регионализация Руси, северо-восток и Новгород. Это краткий план, не полное исследование.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-vladimir",
+    "title": "Regional Centers: Vladimir-Suzdal’",
+    "author": "Daniel C. Waugh, University of Washington",
+    "kind": "Учебное издание",
+    "url": "https://faculty.washington.edu/dwaugh/hstam443/04443lec7.html",
+    "note": "Прочитан раздел II о Юрии, Андрее и Всеволоде; даты отдельных событий требуют летописной сверки.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-novgorod",
+    "title": "The Novgorod Chronicle: Selected Annals",
+    "author": "Новгородская летопись; перевод Michell/Forbes, Fordham University",
+    "kind": "Первичный источник",
+    "url": "https://sourcebooks.fordham.edu/source/novgorod1.asp",
+    "note": "Прочитаны избранные записи XII–XIII веков. Английский перевод начала XX века; это выборка, а не полный свод. Летописные даты могут отличаться из-за календарного пересчёта.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-veche",
+    "title": "The Emergence of Autocracy in Muscovy and the Road Not Taken",
+    "author": "Daniel C. Waugh, University of Washington",
+    "kind": "Учебное издание",
+    "url": "https://faculty.washington.edu/dwaugh/hstam443/443wk6-7.html",
+    "note": "Прочитаны вопросы к договорам, судебным грамотам и Судебнику. Обращает внимание на неодновременность правовых слоёв и различие республики и демократии; часть старых ссылок недоступна.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-galicia",
+    "title": "Galicia-Volhynia, Principality of",
+    "author": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pagesGAGalicia6VolhyniaPrincipalityof.htm",
+    "note": "Прочитана энциклопедическая статья: объединение 1199 года, борьба Романовичей, зависимость от Батыя и кризис 1340 года. Некоторые обобщения старого издания требуют современной редакции.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-lithuania",
+    "title": "Lithuanian-Ruthenian state",
+    "author": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CL%5CI%5CLithuanian6Ruthenianstate.htm",
+    "note": "Прочитана статья о составе и институтах Великого княжества; описание отношений конфессий обобщённое. Нельзя представлять все присоединения мирными или все земли одинаково управляемыми.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-mongol-army",
+    "title": "Mongols in World History: Organization and tactics",
+    "author": "Asia for Educators, Columbia University; Morris Rossabi",
+    "kind": "Учебное издание",
+    "url": "https://afe.easia.columbia.edu/mongols/conquests/conquests_2b.htm",
+    "note": "Открыта и прочитана страница об организации и тактике; общий учебный обзор, не реконструкция численности войск на Руси.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-mongol-expansion",
+    "title": "Mongols in World History: Expansion under his successors",
+    "author": "Asia for Educators, Columbia University; Morris Rossabi",
+    "kind": "Учебное издание",
+    "url": "https://afe.easia.columbia.edu/mongols/conquests/conquests_2d.htm",
+    "note": "Прочитана страница о завоеваниях преемников Чингисхана. Краткая всемирная перспектива, не полный военный атлас.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-mongol-collapse",
+    "title": "Mongols in World History: Collapse of the empire",
+    "author": "Asia for Educators, Columbia University; Morris Rossabi",
+    "kind": "Учебное издание",
+    "url": "https://afe.easia.columbia.edu/mongols/conquests/conquests_4.htm",
+    "note": "Прочитана страница о распаде империи. Отдельные улусы продолжали жить после распада общего политического центра.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-mongol-method",
+    "title": "The Mongols and Rus’, I",
+    "author": "Daniel C. Waugh, University of Washington",
+    "kind": "Учебное издание",
+    "url": "https://faculty.washington.edu/dwaugh/hstam443/04443lec8.html",
+    "note": "Прочитан план лекции о проблеме монгольского влияния, идеализации домонгольской Руси и взаимодействии степи с оседлыми центрами. Только методические ориентиры.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-trade",
+    "title": "Privileges Granted to German Merchants at Novgorod, 1229",
+    "author": "Средневековая торговая грамота; Fordham University, Internet Medieval Sourcebook",
+    "kind": "Первичный источник",
+    "url": "https://sourcebooks.fordham.edu/source/1229novgorod-germans.asp",
+    "note": "Прочитан опубликованный перевод: охрана купцов, перевозка и платежи. Заголовок сайта условный; редактор предупреждает, что объединение 1229 года ещё нельзя считать зрелой Ганзой.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-law1497",
+    "title": "The Sudebnik (1497)",
+    "author": "Судебник Ивана III; перевод H. W. Dewey, Bucknell University",
+    "kind": "Первичный источник",
+    "url": "https://www.departments.bucknell.edu/russian/const/sudebnik.html",
+    "note": "Прочитаны преамбула, нормы о суде, пошлинах, наместниках, статья 57 о переходе и статьи 59–68. Перевод не заменяет критического издания оригинала.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-growth",
+    "title": "The Growth of Muscovy (1462–1533)",
+    "author": "Janet Martin, The Cambridge History of Russia, Cambridge University Press",
+    "kind": "Исследование",
+    "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-russia/growth-of-muscovy-14621533/BCBC6FD430448E9337252DFBCE9069EE",
+    "note": "Проверены открытая аннотация и библиографические сведения, не полный текст главы. Аннотация содержит опорные даты присоединений.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-cambridge-chronology",
+    "title": "The Cambridge History of Russia, vol. 1: front matter and chronology",
+    "author": "Maureen Perrie (ed.), Cambridge University Press, 2006",
+    "kind": "Исследование",
+    "url": "https://assets.cambridge.org/97805218/12276/frontmatter/9780521812276_frontmatter.pdf",
+    "note": "Найдена издательская хронология; полное чтение тома не выполнено. Используется как ориентир для дальнейшей сверки, не подтверждение всех деталей уроков.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-emergence",
+    "title": "The emergence of Moscow (1359–1462)",
+    "author": "Janet Martin, Cambridge University Press",
+    "kind": "Исследование",
+    "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-russia/emergence-of-moscow-13591462/E3AEC1551CB231E0FCC15FD2D2C88EFE",
+    "note": "Прочитана открытая аннотация и библиография, не полная глава. Используется для постановки вопросов о династии, церкви и борьбе за легитимность.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-art",
+    "title": "Hesychasm and Art, chapter5: The Icon of the Trinity by Andrei Rublev",
+    "author": "Anita Strezova, Australian National University Press",
+    "kind": "Исследование",
+    "url": "https://press-files.anu.edu.au/downloads/press/p291911/html/ch05.xhtml?page=13&referer=",
+    "note": "Прочитаны фрагменты о Рублёве, Троице и Сергии, примерно строки85–147,192–249. Интерпретация исихастского влияния не единственная; спорные атрибуции и отдельные неточности биографического раздела не перенесены в уроки.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-sergius",
+    "title": "The life, acts, and miracles of our revered and holy father Abbot Sergius",
+    "author": "Житийная традиция Сергия Радонежского; IntraText, электронная публикация",
+    "kind": "Первичный источник",
+    "url": "https://www.intratext.com/IXT/ENG0157/_INDEX.HTM",
+    "note": "Проверены оглавление и сведения о происхождении электронной транскрипции; выборочно прочитаны разделы об обители, общежитии, разногласиях и отношениях с князьями. Печатный источник на сайте не указан; это ограничение перевода.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "med-memory",
+    "title": "Sofiia Vitovtovna’s Dance: The Wedding of Vasilii II in Russian Cultural Memory",
+    "author": "Sergei Bogatyrev, авторская версия в репозитории University College London",
+    "kind": "Исследование",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10165958/2/Bogatyrev_14_Chap%2014%5B1%5D%20Bogatyrev%20validated%20Uploaded.pdf",
+    "note": "Открыта авторская версия главы; прочитаны начальные страницы о рассказе1433 года и фрагменты о живописиXIX века. Не используется как подтверждение каждой даты усобиц.",
+    "checkedAt": "2026-11-10"
+  }
+]

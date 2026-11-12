@@ -1,0 +1,389 @@
+[
+  {
+    "id": "ref-igor",
+    "title": "Ihor, Prince",
+    "author": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopediaofukraine.com/pages%5CI%5CH%5CIhorPrince.htm",
+    "note": "Проверены веб-извлечения о смерти в 945 году. Ранняя биография известна главным образом из поздней летописи; точный год рождения не принят как установленный.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-svyatoslav",
+    "title": "Sviatoslav I Ihorovych",
+    "author": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CV%5CSviatoslavIIhorovych.htm",
+    "note": "Проверены веб-извлечения о походах, правлении и гибели в 972 году; дата рождения в самой статье дана с вопросительным знаком.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-nevsky",
+    "title": "Александр Ярославич Невский (1221–1263)",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/Great_Russia/military_XIII/Aleksandr_Nevskiy",
+    "note": "Открыта биографическая страница; сопоставлены веб-извлечения Энциклопедии Санкт-Петербурга. В литературе используются 1220 и 1221 годы рождения.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-sergius-nlr",
+    "title": "Life of St. Sergius of Radonezh: manuscripts and transmission",
+    "author": "Российская национальная библиотека",
+    "kind": "Данные",
+    "url": "https://expositions.nlr.ru/ex_manus/SergeyRadonezhsky/eng/index.php",
+    "note": "Проверены поисковые извлечения выставки и её атрибуция рукописей; прямое открытие вернуло 403. Не утверждается, что все рукописи прочитаны. Традиционная дата рождения — 1314; точная дата дискуссионна.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-mikhail",
+    "title": "Родился первый русский царь из династии Романовых Михаил Фёдорович",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/history/619404",
+    "note": "Открыта веб-статья; проверены годы жизни, избрание 1613 года и основные мирные соглашения. Изложение библиотеки является справкой, а не самим документом.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-alexei",
+    "title": "Алексей Михайлович (1629–1676): коллекция документов и исследований",
+    "author": "Президентская библиотека",
+    "kind": "Данные",
+    "url": "https://www.prlib.ru/section/682859",
+    "note": "Открыта карточка коллекции, проверены годы жизни и состав подборки; не все оцифрованные книги прочитаны. Для политики используются также Уложение 1649 года и материалы о расколе.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-nikon",
+    "title": "Nikon, Patriarch (Nikita Minin, 1605–1681)",
+    "author": "Europe, 1450 to 1789: Encyclopedia of the Early Modern World; Encyclopedia.com",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/nikon-patriarch-nikita-minin-1605-1681",
+    "note": "Открыта статья: реформы богослужения, патриаршество 1652–1666, конфликт с царём. Уход из Москвы в 1658 году отличён от соборного низложения 1666 года.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-avvakum",
+    "title": "Аввакум Петров (1620–1682)",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/Great_Russia/cultural_XVII/Avvakum_Petrov",
+    "note": "Проверены веб-извлечения о ссылке, сочинениях и казни. Год рождения сопоставлен с каталогом НЭБ, где указано 1620 или 1621.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-avvakum-life",
+    "title": "Житие протопопа Аввакума, написанное им самим. Издание 1911 года",
+    "author": "Аввакум Петров; Президентская библиотека",
+    "kind": "Первичный источник",
+    "url": "https://www.prlib.ru/item/738468",
+    "note": "Проверена библиографическая карточка издания. Автобиографическое свидетельство и религиозная полемика; собственная оценка автора не принимается за нейтральную историю раскола.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-avvakum-dates",
+    "title": "Сборник сочинений протопопа Аввакума: рукопись начала XIX века",
+    "author": "Национальная электронная библиотека; Российская государственная библиотека",
+    "kind": "Данные",
+    "url": "https://rusneb.ru/catalog/000199_000009_010129332/",
+    "note": "Проверена веб-карточка: авторитетная запись даёт годы 1620 или 1621–1682. Это поздний список сочинений, а не автограф XVII века.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-catherine",
+    "title": "Родилась Екатерина II Великая",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/history/619212",
+    "note": "Открыта статья; проверены годы жизни и переворот 1762 года. Учебный текст не воспроизводит оценочную лексику библиотеки и не использует неточные географические обобщения её внешнеполитического обзора.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-paul",
+    "title": "Павел I (1754–1801)",
+    "author": "Президентская библиотека",
+    "kind": "Данные",
+    "url": "https://www.prlib.ru/section/682895",
+    "note": "Проверены веб-карточка и годы жизни; сведения о престолонаследии сопоставляются с существующим источником fe-paul-law.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-lomonosov",
+    "title": "Михаил Васильевич Ломоносов: биографическая справка и сочинения",
+    "author": "Русская виртуальная библиотека; академический биобиблиографический материал",
+    "kind": "Энциклопедия",
+    "url": "https://rvb.ru/18vek/lomonosov/",
+    "note": "Проверены доступные веб-извлечения: 1711–1765, Академия наук, грамматика и университет. Не используется недоказанный рассказ о единоличном основании университета.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-speransky",
+    "title": "М. М. Сперанский (1772–1839)",
+    "author": "Президентская библиотека",
+    "kind": "Данные",
+    "url": "https://www.prlib.ru/section/2017516",
+    "note": "Проверены веб-карточка коллекции и годы жизни; для содержания проекта 1809 года используется отдельно зарегистрированный первичный текст ir-speransky.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-stolypin",
+    "title": "П. А. Столыпин (1862–1911): документы и исследования",
+    "author": "Президентская библиотека",
+    "kind": "Данные",
+    "url": "https://www.prlib.ru/section/2017517",
+    "note": "Проверены поисковые извлечения и состав коллекции; прямое открытие дало тайм-аут. Результаты аграрной реформы не сведены к безусловному успеху или провалу.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-kolchak",
+    "title": "Родился военный и государственный деятель Александр Васильевич Колчак",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/history/2005040",
+    "note": "Проверены веб-извлечения: 1874–1920, флот, полярные исследования, власть в Омске. В ряде старых архивных справок указан альтернативный 1873 год рождения.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-denikin",
+    "title": "Деникин Антон Иванович",
+    "author": "Большая российская энциклопедия",
+    "kind": "Энциклопедия",
+    "url": "https://bigenc.ru/c/denikin-anton-ivanovich-d28043",
+    "note": "Проверены веб-извлечения биографии и кампании 1919 года. Указаны только годы жизни, поскольку справочные страницы расходятся в дне смерти; подробные подсчёты жертв не заимствуются.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-bukharin",
+    "title": "Бухарин Николай Иванович: архивный фонд и биографическая справка",
+    "author": "Росархив, Путеводители по российским архивам",
+    "kind": "Данные",
+    "url": "https://guides.rusarchives.ru/terms/30/5293/buharin-nikolay-ivanovich",
+    "note": "Проверены веб-извлечения о годах 1888–1938, партийных должностях и составе фонда. Оценка процесса 1938 года сверяется с материалами о сталинских репрессиях.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-brezhnev",
+    "title": "Brezhnev, Leonid",
+    "author": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CR%5CBrezhnevLeonid",
+    "note": "Проверены веб-извлечения: 1906–1982. Для внутренней и внешней политики используется также отдельный обзор sov-brezhnev.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-gagarin",
+    "title": "Yuri Gagarin",
+    "author": "NASA, StarChild",
+    "kind": "Учебное издание",
+    "url": "https://starchild.gsfc.nasa.gov/docs/StarChild/whos_who_level2/gagarin.html",
+    "note": "Проверены веб-извлечения: рождение 9 марта 1934, полёт 12 апреля 1961, гибель 27 марта 1968. Причины авиакатастрофы не реконструируются.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-tereshkova",
+    "title": "First woman in space: Valentina",
+    "author": "European Space Agency",
+    "kind": "Учебное издание",
+    "url": "https://www.esa.int/About_Us/50_years_of_ESA/50_years_of_humans_in_space/First_woman_in_space_Valentina",
+    "note": "Проверены веб-извлечения: рождение 6 марта 1937, отбор 1962 и полёт 1963 года. Число витков не включено: в популярных страницах агентств оно расходится.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-sakharov",
+    "title": "The life of Andrei Sakharov",
+    "author": "Europeana; European Parliament",
+    "kind": "Энциклопедия",
+    "url": "https://www.europeana.eu/en/exhibitions/sakharov-prize/the-life-of-andrei-sakharov",
+    "note": "Проверены веб-извлечения о годах жизни, премии 1975 года, ссылке и депутатстве. Страница NobelPrize.org найдена, но прямое открытие вернуло 403; она не единственное основание карточки.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-sakharov-memoir",
+    "title": "From Exile: autobiography and human-rights work",
+    "author": "Андрей Сахаров; American Institute of Physics",
+    "kind": "Первичный источник",
+    "url": "https://history.aip.org/history/exhibits/sakharov/from-exile.html",
+    "note": "Проверены веб-извлечения авторского рассказа; свидетельство участника сопоставляется с музейной биографией Europeana. Не нейтральный обзор всей советской политики.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-solzhenitsyn",
+    "title": "Aleksandr Solzhenitsyn: biography",
+    "author": "Aleksandr Solzhenitsyn Center",
+    "kind": "Энциклопедия",
+    "url": "https://www.solzhenitsyncenter.org/his-life-overview/biography",
+    "note": "Проверены веб-извлечения о годах жизни и основных произведениях; это биография профильного центра, поэтому его оценочные суждения не перенесены в учебный текст.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-solzhenitsyn-auto",
+    "title": "Autobiography written for the Nobel Prize Committee",
+    "author": "Александр Солженицын; Aleksandr Solzhenitsyn Center",
+    "kind": "Первичный источник",
+    "url": "https://www.solzhenitsyncenter.org/autobiography",
+    "note": "Проверены веб-извлечения автобиографии, написанной к Нобелевской премии. Не источник для последующих событий; поздняя биография проверяется отдельно.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-suvorov",
+    "title": "Александр Васильевич Суворов (1729–1800)",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/Great_Russia/military_XVIII/Suvorov",
+    "note": "Проверены веб-извлечения: библиотека прямо указывает варианты года рождения 1729 и 1730. Подавление восстания 1794 года отмечено наряду с военными достижениями.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-schism1054",
+    "title": "East–West Schism",
+    "author": "EBSCO Research Starters",
+    "kind": "Энциклопедия",
+    "url": "https://www.ebsco.com/research-starters/history/east-west-schism",
+    "note": "Проверены веб-извлечения о конфликте 1054 года. Разделение церквей описано как длительный процесс, а не одномоментное решение всех христиан.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-nicaea1097",
+    "title": "The Siege and Capture of Nicaea, May–June 1097",
+    "author": "Internet Medieval Sourcebook, Fordham University; перевод August C. Krey",
+    "kind": "Первичный источник",
+    "url": "https://sourcebooks.web.fordham.edu/source/cde-nicea.asp",
+    "note": "Проверены веб-извлечения перевода свидетельств участников Первого крестового похода. Рассказ крестоносцев требует критики позиции автора.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-hungary1242",
+    "title": "Climatic and environmental aspects of the Mongol withdrawal from Hungary in 1242 CE",
+    "author": "Ulf Büntgen, Nicola Di Cosmo; Scientific Reports, 2016",
+    "kind": "Исследование",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4881396/",
+    "note": "Проверены веб-извлечения о походе 1241–1242 и отходе. Климатическая гипотеза авторов не выдаётся за общепринятую единственную причину ухода.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-constantinople",
+    "title": "1453: The Fall of Constantinople",
+    "author": "Mark Cartwright, World History Encyclopedia",
+    "kind": "Энциклопедия",
+    "url": "https://www.worldhistory.org/article/1180/1453-the-fall-of-constantinople/",
+    "note": "Проверены веб-извлечения о завоевании 1453 года. Дата не используется как универсальная обязательная граница Средневековья.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-moscow-civilwar",
+    "title": "Московская усобица 1425–1453",
+    "author": "Большая российская энциклопедия",
+    "kind": "Энциклопедия",
+    "url": "https://bigenc.ru/c/moskovskaia-usobitsa-1425-1453-d27c64",
+    "note": "Проверены веб-извлечения о завершающем этапе усобицы. Смерть Шемяки в 1453 году отличена от более раннего возвращения Василия II к власти.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-ivangorod",
+    "title": "Ивангородский музей: история крепости",
+    "author": "ГБУК ЛО «Музейное агентство»",
+    "kind": "Энциклопедия",
+    "url": "https://www.lenoblmus.ru/museums/ivangorodskiy-muzey",
+    "note": "Проверены веб-извлечения: крепость построена Иваном III в 1492 году. Современные музейные границы не проецируются на средневековые владения.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-columbus",
+    "title": "1492: An Ongoing Voyage",
+    "author": "Library of Congress",
+    "kind": "Данные",
+    "url": "https://www.loc.gov/exhibits/1492/",
+    "note": "Проверена веб-карточка выставки о первом плавании Колумба и обществах Америки. Термин «открытие» не означает, что до европейцев там не было людей и государств.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-edward1547",
+    "title": "Edward VI: The Lost Tudor King",
+    "author": "Historic Royal Palaces",
+    "kind": "Энциклопедия",
+    "url": "https://www.hrp.org.uk/hampton-court-palace/history-and-stories/edward-vi/",
+    "note": "Проверены веб-извлечения: вступление после смерти Генриха VIII в январе 1547 и коронация 20 февраля. Английская монархия не приравнивается к московскому царству.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-charles1649",
+    "title": "Death Warrant of King Charles I",
+    "author": "Parliamentary Archives, UK Parliament",
+    "kind": "Первичный источник",
+    "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/collections/deathwarrant/",
+    "note": "Проверены веб-карточка документа и казнь 30 января 1649. Скан документа и редакторское пояснение различаются по типу свидетельства.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-lisbon1755",
+    "title": "Tsunami Historical Series: Lisbon – 1755",
+    "author": "National Oceanic and Atmospheric Administration",
+    "kind": "Данные",
+    "url": "https://sos.noaa.gov/catalog/datasets/tsunami-historical-series-lisbon-1755/",
+    "note": "Проверены веб-извлечения: землетрясение и цунами 1 ноября 1755. Спорные оценки числа погибших и точной магнитуды не приводятся.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-france1789",
+    "title": "Versailles au cœur de la Révolution française",
+    "author": "Château de Versailles",
+    "kind": "Энциклопедия",
+    "url": "https://www.chateauversailles.fr/decouvrir/histoire/les-grandes-dates/versailles-au-coeur-revolution-francaise",
+    "note": "Проверены веб-извлечения о Генеральных штатах и взятии Бастилии 14 июля 1789. Использована французская страница: англоязычное изложение содержит опечатку в дате взятия Бастилии.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-war1812",
+    "title": "1812: Congress’s First Declaration of War Under the Constitution",
+    "author": "National Archives and Records Administration",
+    "kind": "Первичный источник",
+    "url": "https://www.archives.gov/legislative/resources/education/1812",
+    "note": "Проверены веб-карточка образовательного комплекта и документы Конгресса о войне с Великобританией. Не смешивать с российской Отечественной войной того же года.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-sumter1861",
+    "title": "Battle of Fort Sumter, April 1861",
+    "author": "US National Park Service",
+    "kind": "Энциклопедия",
+    "url": "https://home.nps.gov/articles/battle-of-fort-sumter-april-1861.htm",
+    "note": "Проверены веб-извлечения о начале боевых действий Гражданской войны в США в апреле 1861. Освобождение рабов не датируется этим сражением.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-us1917",
+    "title": "American Entry into World War I, 1917",
+    "author": "Office of the Historian, US Department of State",
+    "kind": "Учебное издание",
+    "url": "https://history.state.gov/milestones/1914-1920/wwi",
+    "note": "Проверены веб-извлечения о вступлении США в апреле 1917. Временное правительство России продолжало участие в войне; Брестский мир подписан в 1918.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-un1945",
+    "title": "United Nations Charter: history and text",
+    "author": "United Nations",
+    "kind": "Первичный источник",
+    "url": "https://www.un.org/en/about-us/un-charter",
+    "note": "Проверены веб-извлечения: подписан 26 июня 1945, вступил в силу 24 октября. Подписание и начало юридического действия не смешиваются.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-berlin1961",
+    "title": "Bau der Berliner Mauer",
+    "author": "Bundesarchiv",
+    "kind": "Данные",
+    "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/dokumente-zur-zeitgeschichte/bau-der-berliner-mauer/",
+    "note": "Проверены веб-извлечения архивной подборки о закрытии границы Берлина в августе 1961. Строительство началось 13 августа; последующее укрепление продолжалось годами.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "ref-gulf1991",
+    "title": "The Gulf War, 1991",
+    "author": "Office of the Historian, US Department of State",
+    "kind": "Учебное издание",
+    "url": "https://history.state.gov/milestones/1989-1992/gulf-war",
+    "note": "Проверены веб-извлечения о войне за освобождение Кувейта. Вторжение Ирака произошло в 1990, боевые действия коалиции — в 1991; не смешивать с войной 2003 года.",
+    "checkedAt": "2026-11-12"
+  }
+]

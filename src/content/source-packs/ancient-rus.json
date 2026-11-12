@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ar-iran-scyth",
+    "title": "Scythians i. History",
+    "author": "А.И. Иванчик, Encyclopaedia Iranica",
+    "kind": "Энциклопедия",
+    "url": "https://www.iranicaonline.org/articles/scythians/scythians-i-history/",
+    "note": "Проверены поисковые фрагменты научной статьи: хронология, греческие связи, сарматское продвижение. Прямой HTTP-доступ403; полный текст не прочитан.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-iran-khazar",
+    "title": "Khazars",
+    "author": "Peter B. Golden, Encyclopaedia Iranica",
+    "kind": "Энциклопедия",
+    "url": "https://www.iranicaonline.org/articles/khazars/",
+    "note": "Проверены индексируемые фрагменты о многоэтничном каганате VII–X веков. Прямой HTTP403; датировка обращения элиты и детали разгрома остаются предметом проверки.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-met-scyth",
+    "title": "Gold, Griffins, and Greeks: Scythian Art and Cultural Interactions in the Black Sea",
+    "author": "The Metropolitan Museum of Art",
+    "kind": "Исследование",
+    "url": "https://www.metmuseum.org/essays/scythian-art",
+    "note": "HTTP200: проверены скифские погребальные комплексы, звериные образы и работа греческих мастерских для степных заказчиков.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-black-sea",
+    "title": "Ancient states on the northern Black Sea coast",
+    "author": "Internet Encyclopedia of Ukraine",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CA%5CN%5CAncientstatesonthenorthernBlackSeacoast.htm",
+    "note": "HTTP200: проверены греческое расселение, хозяйство, города и Боспор. Обзор не заменяет специальную историю каждого полиса.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-dates",
+    "title": "Radiocarbon Dating and Chronological Modelling: Introduction",
+    "author": "Alex Bayliss, Peter Marshall; Historic England, 2022",
+    "kind": "Учебное издание",
+    "url": "https://historicengland.org.uk/images-books/publications/radiocarbon-dating-chronological-modelling/introduction/",
+    "note": "Проверены поисковые фрагменты руководства о калибровке и соединении методов. Прямой HTTP403; подробные региональные шкалы не исследовались.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-gramoty",
+    "title": "Древнерусские берестяные грамоты: о сайте и корпусе",
+    "author": "Корпус древнерусских берестяных грамот",
+    "kind": "Данные",
+    "url": "https://gramoty.ru/birchbark/about-site/",
+    "note": "HTTP200: история корпуса с1951 года, публикации и устройство базы. Конкретные письма требуют отдельной карточки.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-gramoty-discovery",
+    "title": "В Великом Новгороде обнаружена первая берестяная грамота",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/history/619413",
+    "note": "Поиск подтвердил26 июля1951 года и Неревский раскоп. История открытия не является статистикой грамотности.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-zaliznyak",
+    "title": "Древненовгородский диалект, второе издание",
+    "author": "А.А. Зализняк, 2004; Институт славяноведения РАН",
+    "kind": "Исследование",
+    "url": "https://inslav.ru/images/stories/pdf/2004_Zalizniak_Drevnenovgorodskij_dialekt.pdf",
+    "note": "Поиском проверены библиографические сведения и история корпуса. Полная лингвистическая монография не прочитана.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-slav-sedov",
+    "title": "Славяне в раннем средневековье",
+    "author": "В.В. Седов, 1995",
+    "kind": "Исследование",
+    "url": "https://www.archaeology.ru/Download/Sedow/Sedow_1995_Slaviane_v_rannem_srednevek.pdf",
+    "note": "Проверены индексируемые фрагменты о раннеславянских культурах. Исследовательская модель1995 года не представлена как окончательный консенсус.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-prague",
+    "title": "Празька культура",
+    "author": "Енциклопедія Сучасної України",
+    "kind": "Энциклопедия",
+    "url": "https://esu.com.ua/article-890247",
+    "note": "HTTP200: проверены название, состав памятников, расселение VI–VII веков и развитие культуры.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-pvl-full",
+    "title": "Повесть временных лет: оригинальный текст и перевод В. Яременко",
+    "author": "Летописная традиция начала XII века; электронное издание Ізборник",
+    "kind": "Первичный источник",
+    "url": "https://litopys.org.ua/pvlyar/yar.htm",
+    "note": "HTTP200 для оглавления и15 разделов. Проверены опорные записи862,882,941,945,965,971,1019,1036,1054,1097,1113 годов. Поздняя запись не подтверждает дословность речей и легенд.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-nlr-law",
+    "title": "На путях к Русской Правде",
+    "author": "Российская национальная библиотека",
+    "kind": "Исследование",
+    "url": "https://expositions.nlr.ru/ex_manus/ruspravo/way.php",
+    "note": "HTTP200: проверены передача договоров в летописи и правовые отношения с Византией; музейная датировка договора Игоря сопоставляется с принятой944–945.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-nlr-rp",
+    "title": "Русская Правда в фондах Российской национальной библиотеки",
+    "author": "Российская национальная библиотека",
+    "kind": "Исследование",
+    "url": "https://expositions.nlr.ru/ruspravda/index.php",
+    "note": "HTTP200: проверены редакции, поздние списки и история изучения памятника. Спорные даты кодификации не объявлены установленными.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-rp-primary",
+    "title": "Русская Правда: тексты и переводы",
+    "author": "Электронная библиотека исторического факультета МГУ",
+    "kind": "Первичный источник",
+    "url": "https://www.hist.msu.ru/ER/Etext/RP/index.html",
+    "note": "HTTP200: оглавление и страницы текстов. Страницы с кадрами требуют перехода к krp_t.htm,krp_p.htm,prp_t.htm,prp_p.htm; подробная сверка норм отмечается в журнале.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-death-igor",
+    "title": "Death of Igor, lines1–38, from the Primary Chronicle",
+    "author": "University of Texas at Austin, Linguistics Research Center",
+    "kind": "Первичный источник",
+    "url": "https://lrc.la.utexas.edu/eieol/oruol/30",
+    "note": "HTTP200: прочитан отрывок летописи с учебным языковым комментарием. Проверена связь гибели с повторным сбором дани.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-early",
+    "title": "Russia: A Country Study — Early History",
+    "author": "Federal Research Division, Library of Congress, 1996",
+    "kind": "Учебное издание",
+    "url": "https://countrystudies.us/russia/2.htm",
+    "note": "HTTP200: общий обзор. Устаревшие обобщения и упрощения Рюриковой хронологии не использованы как единственное доказательство.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-fadlan",
+    "title": "Путешествие Ибн Фадлана на Волгу",
+    "author": "Ибн Фадлан; перевод и научные комментарии",
+    "kind": "Первичный источник",
+    "url": "https://www.hist.msu.ru/ER/Etext/fadlan.htm",
+    "note": "HTTP200: рамочная страница; содержание открывается отдельным кадром. Рассказ относится к поездке922 года и встреченным группам, а не ко всему населению Руси.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-murom",
+    "title": "Муром и мурома",
+    "author": "Ю.М. Смирнов, Муромский историко-художественный музей",
+    "kind": "Исследование",
+    "url": "https://museum-murom.ru/scientific-work/materialy-konferencij-muzeya/ezhegodnaya-otchetnaya-konferenciya/sbornik-konferencii-2015/smirnov-yu.-m.-murom-i-muroma",
+    "note": "HTTP200: проверены поселения, совместное проживание и ограничения реконструкции ассимиляции. Конкретная интерпретация не объявляется единственной.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-rurik-research",
+    "title": "Куда был призван Рюрик?",
+    "author": "А.А. Фетисов; библиографическая карточка НИУ ВШЭ",
+    "kind": "Исследование",
+    "url": "https://publications.hse.ru/articles/71887119",
+    "note": "HTTP200: прочитана аннотация критического обсуждения ранней географии; полный текст статьи не исследован.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-novgorod-research",
+    "title": "On the Origin of Novgorod.862–1136 — Princely Town of Rurikids",
+    "author": "Российская археология, Институт археологии РАН",
+    "kind": "Исследование",
+    "url": "https://www.ra.iaran.ru/?lang=en&page_id=7868",
+    "note": "HTTP200: аннотация одной исследовательской модели. Она сопоставляется с другими объяснениями и не делает летописный862 год археологически бесспорным.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-olga",
+    "title": "Olha, Princess",
+    "author": "Internet Encyclopedia of Ukraine",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopediaofukraine.com/pages/O/L/OlhaPrincess.htm",
+    "note": "HTTP200: проверены правление, Константинополь957 года и дискуссия о крещении до визита.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-yaroslav",
+    "title": "Yaroslav the Wise",
+    "author": "Internet Encyclopedia of Ukraine",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopediaofukraine.com/pages/Y/A/YaroslavtheWise.htm",
+    "note": "HTTP200: проверены борьба за власть, раздел с Мстиславом,1036 год и внешние связи.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-art",
+    "title": "Art of Kievan Rus, late10th–mid11th centuries",
+    "author": "Государственный институт искусствознания, History of Russian Art",
+    "kind": "Исследование",
+    "url": "https://hra.sias.ru/en/1/",
+    "note": "HTTP200: указатель академического тома об архитектуре, живописи и прикладном искусстве. Полный том не прочитан; не служит единственным подтверждением деталей.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-sungir",
+    "title": "Возвращение на Сунгирь: первые результаты новых исследований",
+    "author": "Институт археологии РАН",
+    "kind": "Исследование",
+    "url": "https://archaeolog.ru/en/press/news/vozvraschenie-na-sungir-pervye-rezultaty-novykh-issledovaniy-sungirskoy-stoyanki",
+    "note": "Поиск подтвердил открытие1955 года, исследования Бадера и новые работы. Методические ограничения изложены в уроке.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-sungir-dates",
+    "title": "Radiocarbon age of Sungir site burials: archaeological context and the issue of data verification",
+    "author": "Российская археология, 2024",
+    "kind": "Исследование",
+    "url": "https://www.ra.iaran.ru/?lang=en&page_id=8455",
+    "note": "Проверена аннотация о расхождении дат и важности контекста. Полный текст и весь набор лабораторных данных не проверены.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-monomakh",
+    "title": "Volodymyr Monomakh",
+    "author": "Internet Encyclopedia of Ukraine",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CV%5CO%5CVolodymyrMonomakh.htm",
+    "note": "HTTP200:1113–1125 годы, уставная традиция, походы и Поучение.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-lyubech",
+    "title": "Состоялся Любечский съезд русских князей",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/history/619643",
+    "note": "HTTP200:1097 год, участники и решение об отчинах; сверено с летописным рассказом.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-pouchenie",
+    "title": "Поучение Владимира Мономаха",
+    "author": "Владимир Мономах; электронная публикация Ізборник",
+    "kind": "Первичный источник",
+    "url": "https://litopys.org.ua/oldukr/pouch.htm",
+    "note": "HTTP200: нравственные требования князя, перечень предприятий и письмо Олегу; авторская самопрезентация не принята за независимую оценку.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-gramoty-43",
+    "title": "Новгородская берестяная грамота43",
+    "author": "Корпус древнерусских берестяных грамот",
+    "kind": "Первичный источник",
+    "url": "https://gramoty.ru/birchbark/document/show/novgorod/43/",
+    "note": "HTTP200: письмо Бориса Настасье с хозяйственным поручением. Датировка и перевод берутся из карточки.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-gramoty-752",
+    "title": "Новгородская берестяная грамота752",
+    "author": "Корпус древнерусских берестяных грамот",
+    "kind": "Первичный источник",
+    "url": "https://gramoty.ru/birchbark/document/show/novgorod/752/",
+    "note": "HTTP200: эмоциональное письмо с утратами; перевод и характер отношений требуют осторожного чтения.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ar-gramoty-687",
+    "title": "Новгородская берестяная грамота687",
+    "author": "Корпус древнерусских берестяных грамот",
+    "kind": "Первичный источник",
+    "url": "https://gramoty.ru/birchbark/document/show/novgorod/687/",
+    "note": "HTTP200: сообщение Варвары Есифу о хозяйственном конфликте; используется как конкретный случай, не статистика.",
+    "checkedAt": "2026-11-10"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "atlas-shepherd-1000",
+    "title": "Europe and the Byzantine Empire about 1000",
+    "author": "William R. Shepherd; Historical Atlas, 1911, с. 58–59; скан University of Texas Libraries",
+    "kind": "Учебное издание",
+    "url": "https://maps.lib.utexas.edu/maps/historical/shepherd_1911/shepherd-c-058-059.jpg",
+    "note": "Скачан и визуально просмотрен полный лист. Подпись Russia относится к средневековой Руси. Это реконструкция 1911 года, не средневековый оригинал и не точная современная граница. Public domain: автор умер в 1934 году, издание 1911; библиотека разрешает копирование своих не помеченных copyright сканов. Файл public/assets/atlas/europe-c1000-shepherd-1911.jpg.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-shepherd-growth",
+    "title": "The Growth of Russia in Europe, 1300–1796",
+    "author": "William R. Shepherd; Historical Atlas, 1926, с. 138–139; скан University of Texas Libraries",
+    "kind": "Учебное издание",
+    "url": "https://maps.lib.utexas.edu/maps/historical/shepherd/russian_growth_1300_1796.jpg",
+    "note": "Сверены заголовок, легенда приращений и отдельная легенда разделов Польши. Авторская реконструкция нескольких столетий: не политическая карта одного года. Public domain: автор умер в 1934 году; опубликовано в 1926. Файл public/assets/atlas/russia-growth-1300-1796-shepherd-1926.jpg. Перерисовка геометрии не выполнялась.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-rees-1820",
+    "title": "Russian Empire, The Cyclopaedia",
+    "author": "The Cyclopaedia, редактор Abraham Rees (1743–1825); скан University of Texas Libraries",
+    "kind": "Первичный источник",
+    "url": "https://maps.lib.utexas.edu/maps/historical/russian_empire_1820.jpg",
+    "note": "Визуально просмотрен оригинальный лист, дата 1820 взята из библиотечного каталога. Это свидетельство картографического знания своего времени; актуальность каждой границы на дату публикации не установлена. Public domain. Файл public/assets/atlas/russian-empire-rees-1820.jpg.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-minard",
+    "title": "Carte figurative des pertes successives en hommes de l’Armée Française dans la campagne de Russie 1812–1813",
+    "author": "Charles Joseph Minard (1781–1870), Париж, 20 ноября 1869 года",
+    "kind": "Первичный источник",
+    "url": "https://commons.wikimedia.org/wiki/File:Minard.png",
+    "note": "Сверены дата, имя автора, общественное достояние на странице Commons и оригинальная легенда. Полосы обобщают движения и авторские оценки численности; не дорожная карта всех корпусов. График температуры в градусах Реомюра. Это первичный документ истории статистической картографии, но ретроспективная реконструкция кампании. Локальный неизменённый файл public/assets/atlas/minard-russian-campaign-1869.png.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-ussr-1989",
+    "title": "Soviet Union: Administrative Divisions, 1989",
+    "author": "Central Intelligence Agency, 800656 (545499), 10-89; скан University of Texas Libraries",
+    "kind": "Первичный источник",
+    "url": "https://maps.lib.utexas.edu/maps/commonwealth/soviet_union_admin_1989.jpg",
+    "note": "Визуально сверены год, номер, административная легенда и оговорка США о непризнании включения Эстонии, Латвии и Литвы. Эта позиция относится к составителю. Работа ведомства США в public domain; политика CIA: https://www.cia.gov/site-policies/#copyright-notice. Файл public/assets/atlas/ussr-administrative-1989-cia.jpg. Карта 1989 года не используется как карта фронтов 1942 года или всех лет СССР.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-pcl-license",
+    "title": "Perry–Castañeda Map Collection: Are the maps copyrighted?",
+    "author": "University of Texas Libraries",
+    "kind": "Энциклопедия",
+    "url": "https://maps.lib.utexas.edu/maps/faq.html#3.html",
+    "note": "Прочитано разрешение библиотеки копировать сканы в public domain с рекомендуемой атрибуцией University of Texas Libraries. Отдельные исключения должны иметь copyright-помету. Пометы на выбранных четырёх листах сверены визуально; старые знаки издателя на Shepherd не означают действующее исключительное право. Юридическая экспертиза для всех стран не заявляется.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-novgorod",
+    "title": "The Novgorod Chronicle: Selected Annals — рассказ о разорении Рязани и Владимира",
+    "author": "Новгородская летопись; перевод Robert Michell и Nevill Forbes, 1914; электронная публикация Fordham University",
+    "kind": "Первичный источник",
+    "url": "https://sourcebooks.fordham.edu/source/novgorod1.asp",
+    "note": "Прочитан фрагмент под заголовком A.D. 1238: осада Рязани 16–21 декабря, затем рассказ о Владимире. Заголовок объединяет зимние события; для Рязани современное датирование — декабрь 1237. В карточках отделены свидетельство о насилии и религиозное толкование летописца. Точная трасса движения из повествования не выводится; полный текст летописи не проверен.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-ryazan-chronology",
+    "title": "Siege of Ryazan: современная календарная привязка",
+    "author": "Авторы Wikipedia; справочная статья и приведённая библиография",
+    "kind": "Энциклопедия",
+    "url": "https://en.wikipedia.org/wiki/Siege_of_Ryazan",
+    "note": "Ограниченная вспомогательная сверка датировки осады 16–21 декабря 1237 года с современным справочным изложением; рассказ сопоставлен с переводом Новгородской летописи. Статья не выдаётся за самостоятельную научную экспертизу. Не используется для геометрии маршрутов или оценок потерь.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-1812-advance",
+    "title": "Napoleon’s Russian Campaign: From the Niemen to Moscow",
+    "author": "Fondation Napoléon; историческая хронология с библиографией",
+    "kind": "Исследование",
+    "url": "https://www.napoleon.org/en/history-of-the-two-empires/timelines/napoleons-russian-campaign-from-the-niemen-to-moscow/",
+    "note": "Прочитаны разделы о переправе 24 июня, боях за Смоленск 16–18 августа, Бородине 7 сентября и вступлении в Москву 14 сентября 1812 года. Даты нового стиля. Карточки — собственное краткое изложение, изображения сайта не копировались. Это опорные события, не точная трасса движения каждого корпуса.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-1812-retreat",
+    "title": "Napoleon’s Russian Campaign: The Retreat",
+    "author": "Fondation Napoléon; историческая хронология с библиографией",
+    "kind": "Исследование",
+    "url": "https://www.napoleon.org/en/history-of-the-two-empires/timelines/napoleons-russian-campaign-the-retreat/",
+    "note": "Прочитаны разделы об эвакуации 19 октября, Малоярославце 24 октября, возвращении к смоленскому направлению и прибытии Наполеона в Смоленск 9 ноября. Даты нового стиля. Основная армия и последние части выходили из Москвы в разные дни; карточка прямо это поясняет.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-borodino",
+    "title": "Borodino (La Moskowa)",
+    "author": "Karine Huguenaud; перевод Peter Hicks, Fondation Napoléon",
+    "kind": "Исследование",
+    "url": "https://www.napoleon.org/en/magazine/places/borodino-la-moskowa-2/",
+    "note": "Сверены дата 7 сентября 1812 и положение поля боя относительно Москвы. Оценки численности и потерь из статьи не перенесены: они требуют отдельного сопоставления методик. Исторические координаты отдельных позиций не извлекались.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-stalingrad",
+    "title": "Battle of Stalingrad",
+    "author": "Encyclopaedia Britannica",
+    "kind": "Энциклопедия",
+    "url": "https://www.britannica.com/event/Battle-of-Stalingrad",
+    "note": "Прочитаны разделы об обороне, операции Uranus 19–23 ноября 1942, Operation Ring с 10 января 1943, сдаче Паулюса 31 января и окончании сопротивления 2 февраля. В статье разные поля дают разные рамки начала битвы; карточка использует осторожное «лето — осень», не скрывая проблему датировки. Координаты фронтов и окружения не реконструированы.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-medieval-commerce",
+    "title": "Mediaeval Commerce (Europe)",
+    "author": "William R. Shepherd; Historical Atlas, 1926, с. 98–99; скан University of Texas Libraries",
+    "kind": "Учебное издание",
+    "url": "https://maps.lib.utexas.edu/maps/historical/shepherd/europe_mediaeval_commerce.jpg",
+    "note": "Просмотрены полный лист и оригинальная легенда: красные линии сухопутных/морских путей, синие торговые связи Ганзы, Венеции и Генуи; вставки Англии и Северной Германии. Обобщение Средневековья без единого года, не точная сеть дорог и не доказательство маршрута IX–X веков. Public domain: Shepherd умер в 1934; издание 1926. Локальный файл public/assets/atlas/medieval-commerce-shepherd-1926.jpg.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "atlas-baltic-1701",
+    "title": "The Baltic Lands c. 1701",
+    "author": "Atlas to Freeman’s Historical Geography, редактор J. B. Bury, третье издание, Longmans, Green & Co., 1903; скан University of Texas Libraries",
+    "kind": "Учебное издание",
+    "url": "https://maps.lib.utexas.edu/maps/historical/baltics.html",
+    "note": "Сверены каталожное описание, заголовок около 1701, подписи Narva, Riga, Novgorod, Poltava и цветовая легенда. Авторская поздняя реконструкция политической географии начала Северной войны, не карта передвижений войск или итогов 1721. Public domain: Freeman умер в 1892, Bury в 1927; издание 1903. Локальный файл public/assets/atlas/baltic-1701-freeman-bury-1903.jpg.",
+    "checkedAt": "2026-11-12"
+  }
+]

@@ -1,3 +1,59 @@
+# Архитектура —13 ноября 2026
+
+Сохранён стек React19/TypeScript/Vite/Tailwind/Motion/Lucide/Router/Zustand/IndexedDB/Recharts/D3. Основные разделы приложения и стили расширены без замены существующего дизайна. Electron запускает ту же локальную сборку черезfile://; в браузере используетсяHashRouter и PWA.
+
+| Область | Файлы и назначение |
+| --- | --- |
+| Учебный корпус | `src/content/lessons/*.json`, Zod в `schema.ts`; 291 уроков |
+| Программа | `curriculum.json` — стабильныеID/порядок; `modules.ts` —38 смысловых модулей |
+| Источники | `sources.ts`, `source-packs/*.json`, проверяемый `source-packs.generated.json` |
+| Справочники | исходные `terms.json/people.json` + добавочные JSON; связи с уроками объединяются в `index.ts` |
+| Атлас | `atlas.ts`, `geography.ts`, `HistoricalMap.tsx`, `AtlasDocuments.tsx`; локальные 7 сканов/43 точки |
+| Наглядные объяснения | `visual-guides.ts`, `LearningVisuals.tsx`, `WorldContext.tsx`, `Portrait.tsx`, `LessonIllustrations.tsx` |
+| Обучение | `learning.ts` — интервалы и проверка; `exams.ts` — распределение вопросов по урокам |
+| Хранение | `store.ts`: IndexedDB, копияv1 с добавочными `favoriteEvents/readingDetails`; старые копии получают значения по умолчанию |
+| Сборка |10 пакетов уроков по эпохам; все включаются в PWA precache, локальные ресурсы проверяет `verify-dist.ts` |
+| Windows | `electron/main.cjs`, изолированныйrenderer; `smoke.cjs` по явному флагу тестирует установленную сборку в новом временном профиле |
+| Проверки | Vitest, `browser-tests/*.e2e.ts`, CI Quality checks и Windowsinstaller |
+
+В `predev/prebuild` сначала строится реестр источников и выполняется проверка схем/связей. Некорректный урок не попадёт в выпуск. Генерация источников сохраняет прежниеID. Экспорт и импорт проверяют неизвестные уроки/вопросы/события до замены пользовательских данных.
+
+При добавлении урока соблюдайте [AGENTS.md](AGENTS.md), обновляйте программу и реальный статус. Запрещено автоматически повышатьwritten доchecked/ready из-за прохождения сборки.
+
+
+---
+
+<details>
+<summary>Предыдущая редакция — сохранена для истории, её числа и TODO относятся к прежней версии</summary>
+
+# Архитектура —13 ноября 2026
+
+Сохранён стек React19/TypeScript/Vite/Tailwind/Motion/Lucide/Router/Zustand/IndexedDB/Recharts/D3. Основные разделы приложения и стили расширены без замены существующего дизайна. Electron запускает ту же локальную сборку черезfile://; в браузере используетсяHashRouter иPWA.
+
+| Область | Файлы и назначение |
+| --- | --- |
+| Учебный корпус | `src/content/lessons/*.json`, Zod в`schema.ts`; 291 уроков |
+| Программа | `curriculum.json` — стабильныеID/порядок; `modules.ts` —38 смысловых модулей |
+| Источники | `sources.ts`, `source-packs/*.json`, проверяемый `source-packs.generated.json` |
+| Справочники | исходные `terms.json/people.json` + добавочные JSON; связи с уроками объединяются в`index.ts` |
+| Атлас | `atlas.ts`, `geography.ts`, `HistoricalMap.tsx`, `AtlasDocuments.tsx`; локальные7сканов/43точки |
+| Наглядные объяснения | `visual-guides.ts`, `LearningVisuals.tsx`, `WorldContext.tsx`, `Portrait.tsx`, `LessonIllustrations.tsx` |
+| Обучение | `learning.ts` — интервалы и проверка; `exams.ts` — распределение вопросов по урокам |
+| Хранение | `store.ts`: IndexedDB, копияv1 с добавочными`favoriteEvents/readingDetails`; старые копии получают значения по умолчанию |
+| Сборка |10 пакетов уроков по эпохам; все включаются в PWA precache, локальные ресурсы проверяет`verify-dist.ts` |
+| Windows | `electron/main.cjs`, изолированныйrenderer; `smoke.cjs` по явному флагу тестирует установленную сборку в новом временном профиле |
+| Проверки | Vitest, `browser-tests/*.e2e.ts`, CI Quality checks и Windowsinstaller |
+
+В`predev/prebuild` сначала строится реестр источников и выполняется проверка схем/связей. Некорректный урок не попадёт в выпуск. Генерация источников сохраняет прежниеID. Экспорт и импорт проверяют неизвестные уроки/вопросы/события до замены пользовательских данных.
+
+При добавлении урока соблюдайте [AGENTS.md](AGENTS.md), обновляйте программу и реальный статус. Запрещено автоматически повышатьwritten доchecked/ready из-за прохождения сборки.
+
+
+---
+
+<details>
+<summary>Предыдущая редакция — сохранена для истории, её числа и TODO относятся к прежней версии</summary>
+
 # Архитектура
 
 ## Исполнение
@@ -42,3 +98,7 @@ vite-plugin-pwa генерирует Service Worker. Все ресурсы вх�
 ## Проверки и развитие
 
 `validate-content.ts` проверяет схемы, уникальность ID, принадлежность программе, связи и корректность вариантов вопросов. `content-docs.ts` генерирует реальный статус всей программы. Vitest проверяет обучение, хранение, SSR и взаимодействия через jsdom. Настоящие браузерные и Windows-проверки фиксируются отдельно, когда действительно выполнены.
+
+</details>
+
+</details>

@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-13",
+  "unitTests": 339,
+  "browserTests": 6,
+  "precache": 33,
+  "windows": "Windows: сборка, тихая установка NSIS и запуск установленного приложения ожидают выполнения нового workflow в GitHub Actions."
+}

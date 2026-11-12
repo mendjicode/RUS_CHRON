@@ -1,17 +1,22 @@
 import eraData from './eras.json';
 import curriculumData from './curriculum.json';
 import termData from './terms.json';
+import additionalTerms from './additional-terms.json';
+import {termSchema,personSchema} from './reference-schema';
 import peopleData from './people.json';
+import additionalPeople from './additional-people.json';
 import {lessonSchema} from './schema';
 import type {Lesson,Era,CurriculumEntry} from './schema';
 const files=import.meta.glob('./lessons/*.json',{eager:true,import:'default'});
-export const lessons:Lesson[]=Object.values(files).map(v=>lessonSchema.parse(v)).sort((a,b)=>a.id.localeCompare(b.id));
+export const lessons:Lesson[]=Object.entries(files).map(([path,v])=>{const parsed=lessonSchema.safeParse(v);if(!parsed.success)throw new Error(`Некорректный материал ${path}: ${parsed.error.message}`);return {...parsed.data,terms:[...new Set([...parsed.data.terms,...additionalTerms.filter(t=>t.lessonIds.includes(parsed.data.id)).map(t=>t.id)])],people:[...new Set([...parsed.data.people,...additionalPeople.filter(p=>p.lessonIds.includes(parsed.data.id)).map(p=>p.id)])]};}).sort((a,b)=>a.id.localeCompare(b.id));
 export const lessonById:Partial<Record<string,Lesson>>=Object.fromEntries(lessons.map(l=>[l.id,l]));
 export const eras=eraData as Era[];
 export const curriculum=(curriculumData as CurriculumEntry[]).map<CurriculumEntry>(l=>({...l,status:lessonById[l.id]?.status??'planned'}));
-export const terms=termData;
-export const people=peopleData;
+export const terms=termSchema.array().parse([...termData,...additionalTerms]);
+export const people=personSchema.array().parse([...peopleData,...additionalPeople]);
 export const statuses={planned:'Запланирован',written:'Написан · ожидает проверки',checked:'Проверен по источникам',ready:'Готов к изучению'};
 export const questions=lessons.flatMap(l=>l.questions.map(q=>({...q,lessonId:l.id,lessonTitle:l.title,eraId:l.eraId})));
 export const events=lessons.flatMap(l=>l.dates.map((e,i)=>({...e,id:`${l.id}-e${i}`,lessonId:l.id,lessonTitle:l.title,eraId:l.eraId}))).sort((a,b)=>a.year-b.year);
 export const readingMinutes=(l:Lesson)=>Math.max(1,Math.ceil([l.simple,...l.sections.flatMap(s=>s.paragraphs),l.deep.text].join(' ').split(/\s+/).length/150));
+
+export const latestInformationAsOf=lessons.map(l=>l.informationAsOf).filter((d):d is string=>!!d).sort().at(-1);

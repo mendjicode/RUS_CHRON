@@ -1,0 +1,47 @@
+[
+  {
+    "id": "key-ucla-thinking",
+    "title": "Historical Thinking Standards — Introduction",
+    "author": "UCLA Public History Initiative / National Center for History in the Schools",
+    "kind": "Учебное издание",
+    "url": "https://phi.history.ucla.edu/nchs/historical-thinking-standards/",
+    "note": "Открыто введение: хронологическое мышление, интерпретация, контекст, сопоставление свидетельств и историческое исследование. Использовано как основание учебной методики; условные примеры в уроке написаны отдельно, не выдаются за случаи из источника.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "key-loc-analysis",
+    "title": "Core Strategies for Working with Primary Sources: Primary Source Analysis",
+    "author": "Cheryl Lederle, Teaching with the Library, Library of Congress, 2 April 2020",
+    "kind": "Учебное издание",
+    "url": "https://blogs.loc.gov/teachers/2020/04/core-strategies-for-working-with-primary-sources-primary-source-analysis/",
+    "note": "Открыт материал о наблюдении, интерпретации, вопросах и дальнейшем исследовании. Разделение видимого и предполагаемого применено к отдельно придуманному и явно обозначенному учебному примеру. Общая вводная страница Teachers вернула403; блог доступен.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "key-prlib1861-exhibit",
+    "title": "160-летие подписания Манифеста об отмене крепостного права в России: электронная выставка",
+    "author": "Президентская библиотека имени Б. Н. Ельцина",
+    "kind": "Учебное издание",
+    "url": "https://www.prlib.ru/sites/default/files/u535/160-letie_podpisaniya_manifest_ob_otmene_krepostnogo_prava_v_rossii.pdf",
+    "note": "Открыт PDF выставки: подготовка реформы, правительственные комитеты, Н.А.Милютин, Редакционные комиссии, наделы и уставные грамоты. Выставочное пояснение и карточки документов не выдаются за прочтение всех воспроизведённых архивных изданий.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "key-rgia-redemption",
+    "title": "Главное выкупное учреждение Министерства финансов — описание фонда РГИА577",
+    "author": "Российский государственный исторический архив; Президентская библиотека",
+    "kind": "Данные",
+    "url": "https://www.prlib.ru/item/465091",
+    "note": "Открыты описание и аннотация архивного фонда: назначение учреждения и применение положения о выкупе1861года. Подтверждает административное сопровождение выкупа и наличие дел по регионам; отдельные дела конкретных деревень не изучены.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "key-imf1999-economic",
+    "title": "Russia: Recent Economic Developments",
+    "author": "International Monetary Fund, Staff Country Report1999/100, 22 September1999",
+    "kind": "Исследование",
+    "url": "https://www.imf.org/en/publications/cr/issues/2016/12/30/russia-recent-economic-developments-3212",
+    "note": "Открыты карточка и сводка выводов об экономике1990–1998: прекращение субсидий, нарушение хозяйственных связей, падение выпуска и усиление спада кризисом1998. Полный160-страничный отчёт не прочитан; точные численные ряды из него не заимствованы.",
+    "checkedAt": "2026-11-13"
+  }
+]

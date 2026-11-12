@@ -1,0 +1,29 @@
+[
+  {
+    "id": "modern-ohchr-september2026",
+    "title": "Protection of Civilians in Armed Conflict — September2026 Update",
+    "author": "OHCHR / Human Rights Monitoring Mission in Ukraine, октябрь2026",
+    "kind": "Первичный источник",
+    "url": "https://ukraine.un.org/en/324561-protection-civilians-armed-conflict-%E2%80%94-september-2026",
+    "note": "Прочитаны официальная сводка и5-страничный PDF по ссылке English. Охват месячного среза — сентябрь2026; порталООН датирует публикацию16октября, каталог миссии —15октября. Числа328погибших и2105раненых относятся к подтверждённым гражданским потерям на территорииУкраины за этот месяц; отдельно указаны пределы проверки сообщений с недоступных территорий. Эти данные не выданы за статистику ноября.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "modern-dppa-november9-2026",
+    "title": "Remarks by Director for Europe and Central Asia Division to the Security Council on Ukraine [as delivered],9November2026",
+    "author": "Kayoko Gotoh, Departments of Political and Peacebuilding Affairs and Peace Operations, United Nations",
+    "kind": "Первичный источник",
+    "url": "https://dppa.un.org/en/node/137309/",
+    "note": "Полный официальный текст действительно прочитан в индексированной версии результата веб-поиска; прямой запрос страницы возвращал403, а UNpress — клиентскую защиту. Брифинг9ноября различает подтверждённый сентябрьский срез, предварительный анализ октября и сообщения о последних эпизодах. Последние не объявлены независимо проверенными фактами и их численные оценки в урок не перенесены. Призыв к прекращению огня передан как позицияООН, а не состоявшийся общий мир.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "modern-ohchr-civilian-report-index",
+    "title": "Protection of civilians — официальный каталог месячных отчётов",
+    "author": "UN Human Rights Monitoring Mission in Ukraine",
+    "kind": "Данные",
+    "url": "https://ukraine.ohchr.org/en/reports/protection-of-civilians",
+    "note": "Каталог открыт13ноября2026. Первым доступным месячным отчётом в полученном списке указан September2026; октябрьский отчёт в этом каталоге и поиске не обнаружен. Это описание результата проверки доступных публикаций, не доказательство отсутствия любой более поздней информации во всём интернете.",
+    "checkedAt": "2026-11-13"
+  }
+]

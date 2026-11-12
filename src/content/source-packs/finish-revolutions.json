@@ -1,0 +1,146 @@
+[
+  {
+    "id": "fr-autocracy",
+    "title": "The Last Years of the Autocracy",
+    "author": "Federal Research Division, Library of Congress",
+    "kind": "Учебное издание",
+    "url": "https://countrystudies.us/russia/7.htm",
+    "note": "Общий обзор поздней империи. Поисковые фрагменты сверены; не современная исчерпывающая историография.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-revolution",
+    "title": "Revolutions and Civil War",
+    "author": "Federal Research Division, Library of Congress",
+    "kind": "Учебное издание",
+    "url": "https://countrystudies.us/russia/8.htm",
+    "note": "Обзор 1917 года, интервенции и военного коммунизма. Используется для опорной последовательности, не точных чисел жертв.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-ww1-revolution",
+    "title": "Revolutions (Russian Empire)",
+    "author": "Christopher Read, 1914-1918-online",
+    "kind": "Исследование",
+    "url": "https://encyclopedia.1914-1918-online.net/article/revolutions-russian-empire/",
+    "note": "Сверены доступные поисковые фрагменты о коалициях, Корнилове и динамике 1917 года. Полный текст не заявлен прочитанным.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-portsmouth",
+    "title": "The Treaty of Portsmouth and the Russo-Japanese War, 1904–1905",
+    "author": "Office of the Historian, US Department of State",
+    "kind": "Исследование",
+    "url": "https://history.state.gov/milestones/1899-1913/portsmouth-treaty",
+    "note": "Сверена карточка официального исторического обзора; условия мира проверяются по доступному тексту отдельно.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-assembly",
+    "title": "Всероссийское учредительное собрание",
+    "author": "Президентская библиотека",
+    "kind": "Первичный источник",
+    "url": "https://www.prlib.ru/collections/704984",
+    "note": "Проверены дата открытия 5(18) января 1918 и наличие стенограммы. Полная постраничная сверка не проведена.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-assembly-archive",
+    "title": "Учредительное собрание: архивные документы",
+    "author": "Росархив",
+    "kind": "Первичный источник",
+    "url": "https://lenin.rusarchives.ru/uchreditelnoe-sobranie",
+    "note": "Сверены документы и датировка единственного заседания 5–6(18–19) января 1918. Не полный пересчёт итогов выборов.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-famine",
+    "title": "American Relief Administration in Soviet Russia",
+    "author": "Hoover Institution Library & Archives",
+    "kind": "Исследование",
+    "url": "https://guides.hoover.org/c.php?g=1281439&p=9459822",
+    "note": "Сверены поисковые фрагменты архивного путеводителя о помощи 1921–1923. Не используется для точного числа погибших.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-famine-nara",
+    "title": "Deliverance: America and the Famine in Soviet Russia, 1921–1923",
+    "author": "US National Archives",
+    "kind": "Исследование",
+    "url": "https://www.archives.gov/calendar/event/deliverance-america-and-the-famine-in-soviet-russia-1921-1923",
+    "note": "Сверены название выставки и участие АРА в продовольственной и медицинской помощи. Хронология помощи шире названия урока.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-1905-strike",
+    "title": "Началась Октябрьская всероссийская политическая стачка",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/history/619649",
+    "note": "Сверены связь стачки с манифестом и перечисление гражданских свобод; реализация прав не выводится из обещания.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-octobrists",
+    "title": "Союз 17 октября",
+    "author": "Президентская библиотека",
+    "kind": "Первичный источник",
+    "url": "https://www.prlib.ru/item/370883",
+    "note": "Архивная справка подтверждает образование в ноябре1905 и состав организаций; не полный текст программы.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-stolypin",
+    "title": "The Concept of the Stolypin Land Reform",
+    "author": "Slavic Review, Cambridge University Press",
+    "kind": "Исследование",
+    "url": "https://www.cambridge.org/core/journals/slavic-review/article/abs/concept-of-the-stolypin-land-reform/C82EFA742D257C1074C3DD2E34ACC30C",
+    "note": "Прочитана доступная аннотация о комплексе мер 1905–1917. Точные итоги реформы и региональные различия требуют специальной литературы.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-ushmm",
+    "title": "The Russian Revolution, 1917",
+    "author": "United States Holocaust Memorial Museum",
+    "kind": "Энциклопедия",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-russian-revolution-1917",
+    "note": "Сверены поисковые фрагменты о связи войны и Февраля, смене режимов. Обзор не заменяет исследование гражданской войны.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-abdication",
+    "title": "Акт отречения НиколаяII",
+    "author": "Росархив",
+    "kind": "Первичный источник",
+    "url": "https://portal.rusarchives.ru/statehood/07-12-akt-otrechenie-nikolay-ii.shtml",
+    "note": "Сверены текст и пояснения о подписании вечером2марта и времени в реквизитах; акт Михаила различается по правовому смыслу.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-bloody-sunday",
+    "title": "Кровавое воскресенье — начало Первой русской революции",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/history/618968",
+    "note": "Сверены дата9(22)января1905 и характер шествия. Приведённая на странице спорная сводная оценка потерь в урок не перенесена.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-brest",
+    "title": "Брестский мир: извлечение из договора3марта1918года",
+    "author": "Электронная библиотека исторических документов",
+    "kind": "Первичный источник",
+    "url": "https://docs.historyrussia.org/nodes/183650",
+    "note": "Сверены дата и стороны договора. Условия мартовского мира отделяются от августовского дополнительного соглашения; точная реконструкция границ не выполнена.",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "id": "fr-terror-decree",
+    "title": "Постановление Совнаркома о красном терроре5сентября1918года",
+    "author": "Совнарком; ЭБИД",
+    "kind": "Первичный источник",
+    "url": "https://docs.historyrussia.org/ru/nodes/533980-postanovlenie-sovnarkoma-o-krasnom-terrore-5-sentyabrya-1918-g",
+    "note": "Сверены датировка и предмет постановления. Нормативное решение не доказывает точное число жертв и не означает отсутствия насилия до сентября.",
+    "checkedAt": "2026-11-12"
+  }
+]

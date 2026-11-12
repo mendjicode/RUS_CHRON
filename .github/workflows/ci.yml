@@ -20,6 +20,14 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm run verify:dist
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rus-chron-browser-checks
+          path: tasks/001-russian-history-course/qa/
+          retention-days: 14
       - uses: actions/upload-artifact@v4
         with:
           name: rus-chron-web

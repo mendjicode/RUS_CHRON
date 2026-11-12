@@ -6,6 +6,8 @@ if(!entries.length)throw new Error('Не найден список precache. П�
 const seen=new Map<string,string>();
 for(const e of entries){if(seen.has(e.url)&&seen.get(e.url)!==e.revision)throw new Error(`Конфликт ревизий офлайн-кэша: ${e.url}`);seen.set(e.url,e.revision);await access(path.join('dist',e.url));}
 const required=['index.html','icon.svg','assets/golos.ttf','assets/literata.ttf','assets/kremlin.jpg','assets/land.geojson'];
+async function assetFiles(folder:string):Promise<string[]>{const result:string[]=[];for(const entry of await readdir(folder,{withFileTypes:true})){const file=path.join(folder,entry.name);if(entry.isDirectory())result.push(...await assetFiles(file));else result.push(file);}return result;}
+for(const file of await assetFiles('dist/assets'))if(/\.(?:js|css|json|geojson|svg|ttf|woff2|jpg|jpeg|png|txt)$/.test(file))required.push(path.relative('dist',file).split(path.sep).join('/'));
 for(const file of required)if(!seen.has(file))throw new Error(`Ресурс не включён в офлайн-кэш: ${file}`);
 const index=await readFile('dist/index.html','utf8');
 for(const match of index.matchAll(/(?:src|href)="(\.[^"]+)"/g))await access(path.resolve('dist',match[1]));

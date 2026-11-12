@@ -1,3 +1,4 @@
+import additionalPlaces from './additional-places.json';
 export type Place={id:string;name:string;coordinates:[number,number];note:string};
 // Modern city-centre coordinates, WGS84; points are geographic anchors, never historical boundaries.
 export const places:Place[]=[
@@ -23,3 +24,6 @@ export const places:Place[]=[
 {id:'saratov',name:'Саратов',coordinates:[46.0358,51.5336],note:'Географический ориентир Поволжья, одного из регионов голода.'},
 {id:'stalingrad',name:'Сталинград / Волгоград',coordinates:[44.5018,48.708],note:'Географический ориентир Сталинградской битвы.'}
 ];
+
+// Coordinates from the public-domain Natural Earth 1:50m populated-places dataset.
+places.push(...additionalPlaces.map(p=>({...p,coordinates:p.coordinates as [number,number]})));

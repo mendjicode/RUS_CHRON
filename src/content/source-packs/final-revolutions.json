@@ -1,0 +1,74 @@
+[
+  {
+    "id": "frr-terror-tatarica",
+    "title": "Красный и белый террор",
+    "author": "Татарская энциклопедия, Tatarica",
+    "kind": "Энциклопедия",
+    "url": "https://tatarica.org/ru/razdely/istoriya/novejshee-vremya/znachimye-sobytiya/krasnyj-i-belyj-terror",
+    "note": "Просмотрена статья о понятии и органах террора. Региональную конкретику не распространять на всю страну; точные числа жертв не заимствованы.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "frr-civilwar",
+    "title": "Civil War of 1917–1922",
+    "author": "Encyclopedia of Russian History / Encyclopedia.com",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/civil-war-1917-1922",
+    "note": "Просмотрены разделы о политических силах, ресурсах и крестьянстве. Обобщения сопоставляются с региональной архивной подборкой.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "frr-redterror",
+    "title": "Red Terror",
+    "author": "Encyclopedia of Russian History / Encyclopedia.com",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/red-terror",
+    "note": "Просмотрены характеристика классового преследования и роль чрезвычайных органов. Формула о начале официальной кампании не используется как отрицание предшествующего насилия; цифры статьи без отдельной сверки не перенесены.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "frr-tambov",
+    "title": "Тамбовский фронт Гражданской войны",
+    "author": "Государственный архив социально-политической истории Тамбовской области,2021",
+    "kind": "Первичный источник",
+    "url": "https://gaspito.ru/materials/publications/collections/antonov100/",
+    "note": "Просмотрены вступление и состав архивной подборки о восстании1920–1921годов. Она не объявляется полной картиной крестьянства всей страны; номера отдельных приказов и непроверенная статистика не добавлены.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "frr-hoover-relief",
+    "title": "America to the Starving People of Russia",
+    "author": "Bertrand M. Patenaude, Hoover Institution Library & Archives",
+    "kind": "Исследование",
+    "url": "https://www.hoover.org/shorthand-story/18",
+    "note": "Просмотрены разделы о Рижских переговорах, соглашении20августа1921, распределении и недоверии. Подлинные документы и поздние пояснения автора различаются; обширные цитаты не заимствованы.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "frr-famine-research",
+    "title": "Help yourself by helping others: self-interest in appeals for Russian famine relief,1921–23",
+    "author": "Steffen Werther, Disasters46(3),2022; online2021",
+    "kind": "Исследование",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/disa.12494",
+    "note": "Просмотрены библиографические сведения и фрагменты о причинах голода и организациях помощи. Исследование риторики обращений не является окончательным подсчётом смертности.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "frr-loc-famine",
+    "title": "The Soviet Union and the United States: famine relief",
+    "author": "Library of Congress, Revelations from the Russian Archives",
+    "kind": "Первичный источник",
+    "url": "https://www.loc.gov/exhibits/archives/sovi.html",
+    "note": "Проверен раздел выставки о голоде, перевозках и помощи АРА. Документальные свидетельства отделяются от редакторского обзора; его точные оценки не перенесены без проверки.",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "frr-1917-context",
+    "title": "1917 — Did the War Cause a Revolution? Context",
+    "author": "Virginia Tech, Digital History Reader",
+    "kind": "Учебное издание",
+    "url": "https://www.dhr.history.vt.edu/modules/eu/mod03_1917/context.html",
+    "note": "Прочитаны разделы о протестах, снабжении, гарнизоне и разных ожиданиях послеФевраля. Оценочные формулировки о роли Распутина и точные числа не перенесены; даты проверяются по другим материалам.",
+    "checkedAt": "2026-11-13"
+  }
+]

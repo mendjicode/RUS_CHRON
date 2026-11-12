@@ -1,0 +1,191 @@
+[
+  {
+    "id": "ir-tilsit",
+    "title": "Treaty between France and Russia, Tilsit, 7 July 1807",
+    "author": "Fondation Napoléon",
+    "kind": "Первичный источник",
+    "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/treaty-between-france-and-russia-tilsit-7-july-1807/",
+    "note": "Проверены дата и предмет договора. Публикация текста не подтверждает полноту исполнения торговых обязательств.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-borodino",
+    "title": "Borodino (La Moskowa)",
+    "author": "Fondation Napoléon",
+    "kind": "Исследование",
+    "url": "https://www.napoleon.org/en/magazine/places/borodino-la-moskowa-2",
+    "note": "Проверены дата и положение сражения в кампании. Точные оценки потерь в урок не включены из-за различий методик.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-campaign",
+    "title": "Napoleonic Satires: Historical Introduction",
+    "author": "Brown University Library",
+    "kind": "Учебное издание",
+    "url": "https://library.brown.edu/cds/napoleon/napoleon1.html",
+    "note": "Проверена последовательность коалиционной борьбы 1813–1814 годов. Коллекция сатиры требует отдельной критики изображений.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-vienna",
+    "title": "Заключительный акт Венского конгресса, 1815",
+    "author": "Участники Венского конгресса; электронная публикация Portalus",
+    "kind": "Первичный источник",
+    "url": "https://library.by/portalus/modules/rushistory/print.php?archive=1401694033&id=1171437420&start_from=&subaction=showfull&ucat=",
+    "note": "Сопоставлены положения о польских и саксонских землях. Электронная публикация; архивная сверка оригиналов не выполнена.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-decembrists",
+    "title": "Произошло восстание декабристов",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/history/619844",
+    "note": "Проверены календарная дата, обстоятельства выступления и ссылки на документы. Оценочные определения отделены от фактов.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-nicholas",
+    "title": "Nicholas I (1796–1855)",
+    "author": "Royal Collection Trust",
+    "kind": "Энциклопедия",
+    "url": "https://www.rct.uk/collection/stories/russian-empires/nicholas-i-1796-1855",
+    "note": "Проверена общая хронология правления; не используется как доказательство каждой административной меры.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-slavophiles",
+    "title": "Art and Culture in Nineteenth-Century Russia",
+    "author": "Indiana University Press",
+    "kind": "Исследование",
+    "url": "https://publish.iupress.indiana.edu/read/art-and-culture-in-nineteenth-century-russia/section/67e93ffe-46f5-4d5c-b129-8959106f9f48",
+    "note": "Доступный раздел сопоставляет позиции западников и славянофилов; учитываются различия внутри направлений.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-crimea",
+    "title": "Crimean War",
+    "author": "National Army Museum",
+    "kind": "Энциклопедия",
+    "url": "https://www.nam.ac.uk/explore/crimean-war",
+    "note": "Музей рассматривает британское участие 1854–1856 годов; начало русско-османской войны в 1853 году проверено отдельно по обзорам Национального архива Великобритании. Не переносить узкие британские даты на весь конфликт.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-judicial",
+    "title": "В России введена новая судебная система",
+    "author": "Президентская библиотека",
+    "kind": "Энциклопедия",
+    "url": "https://www.prlib.ru/history/619774",
+    "note": "Проверены дата судебных уставов и названия четырёх актов. Практика введения различалась по территории.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-great-reforms",
+    "title": "Great Reforms (Russia)",
+    "author": "Encyclopedia of Russian History, электронная публикация Encyclopedia.com",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/great-reforms-russia",
+    "note": "Проверена связь земской, судебной и военной реформ. Служебные обязанности по уставу 1874 года не следует представлять одинаковой фактической службой всех мужчин.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-narodnik",
+    "title": "Narodniki",
+    "author": "The Columbia Encyclopedia, Encyclopedia.com",
+    "kind": "Энциклопедия",
+    "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/narodniki",
+    "note": "Проверены опорные даты1874,1879,1881. Общие оценки отклика крестьян требуют местной проверки; движение не сводится к террору.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-industry",
+    "title": "Основные этапы формирования кадров промышленного пролетариата в России",
+    "author": "Национальный атлас России,том4",
+    "kind": "Учебное издание",
+    "url": "https://nationalatlas.ru/tom4/140.html",
+    "note": "Проверены признаки машинного производства и условные хронологические рамки. Не используется как единая статистика каждого предприятия.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-alexander3",
+    "title": "Законодательные акты АлександраIII",
+    "author": "Президентская библиотека",
+    "kind": "Первичный источник",
+    "url": "https://www.prlib.ru/section/681962",
+    "note": "Коллекция актов; проверены библиографические опоры. Наличие акта в коллекции не доказывает одинаковую практику исполнения.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-counter",
+    "title": "Положение о земских участковых начальниках,12июля1889",
+    "author": "Российская империя;Президентская библиотека",
+    "kind": "Первичный источник",
+    "url": "https://www.prlib.ru/item/1620610",
+    "note": "Проверена карточка издания и дата. Полный экземпляр требует доступа через электронный читальный зал.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-witte",
+    "title": "Сергей Юльевич Витте",
+    "author": "Библиотека Банка России",
+    "kind": "Исследование",
+    "url": "https://library.cbr.ru/media/virtual_exhibitions/sergey_vitte/",
+    "note": "Проверены хронология денежной реформы1897 и поэтапность введения винной монополии. Не утверждается одномоментное введение по всей империи.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-speransky",
+    "title": "План государственного преобразования:Введение к Уложению государственных законов1809г.",
+    "author": "М.М.Сперанский;издание1905г.,Президентская библиотека",
+    "kind": "Первичный источник",
+    "url": "https://www.prlib.ru/node/357574",
+    "note": "Проверена карточка подлинного сочинения и дата проекта;полная сверка всех редакций и рукописей не выполнена.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-culture",
+    "title": "10фактов о передвижниках",
+    "author": "Государственная Третьяковская галерея,Лаврус",
+    "kind": "Исследование",
+    "url": "https://lavrus.tretyakov.ru/publications/10-faktov-o-peredvizhnikakh/",
+    "note": "Проверены основание1870и первая выставка1871. Не является подтверждением всех научных биографий урока.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-nationalities",
+    "title": "Managing empire:tsarist nationalities policy",
+    "author": "The Cambridge History of Russia,vol.2,Cambridge University Press",
+    "kind": "Исследование",
+    "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-russia/managing-empire-tsarist-nationalities-policy/6D93C6DE02EBA99BD166F09E9705090C",
+    "note": "Проверены карточка,аннотация и оглавление. Полная глава не прочитана;украинские ограничения отдельно проверены по энциклопедическим публикациям текстов1863/1876.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-foreign",
+    "title": "The Cambridge History of Russia,vol.2:Imperial Russia1689–1917",
+    "author": "Dominic Lieven(ed.),Cambridge University Press",
+    "kind": "Исследование",
+    "url": "https://www.cambridge.org/core/books/the-cambridge-history-of-russia/0282C1B4DB2D3FB00ADDFEB45AAA1214",
+    "note": "Библиографический указатель и обзор устройства империи. Полный том не прочитан в этой сессии;частные договоры требуют отдельной проверки.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-women",
+    "title": "Науки женское лицо.Высшие женские курсы",
+    "author": "Летопись Московского университета",
+    "kind": "Исследование",
+    "url": "https://letopis.msu.ru/content/nauki-zhenskoe-lico-vysshie-zhenskie-kursy",
+    "note": "Проверены открытие Бестужевских курсов1878и ограничения дипломных прав. Не объявляются первой в истории формой женского высшего обучения.",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "id": "ir-bestuzhev",
+    "title": "Петроградские высшие женские курсы,1878–1918:фонд113",
+    "author": "ЦГИА Санкт-Петербурга",
+    "kind": "Первичный источник",
+    "url": "https://spbarchives.ru/infres/-/archive/cgia/113",
+    "note": "Архивная историческая справка подтверждает учреждение1878и остановку/возобновление приёма1886/1889. Дела фонда постранично не прочитаны.",
+    "checkedAt": "2026-11-10"
+  }
+]

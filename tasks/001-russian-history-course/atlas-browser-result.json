@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-12T16:56:14.794Z",
+  "sheets": [
+    "medieval-commerce",
+    "baltic-1701",
+    "europe-1000",
+    "growth-1300-1796",
+    "empire-1820",
+    "minard-1812",
+    "ussr-1989"
+  ],
+  "offline": true,
+  "keyboardPan": true,
+  "pointerPan": true,
+  "automaticStages": true,
+  "lessonLink": true,
+  "mobileDarkNoOverflow": true,
+  "pageErrors": []
+}

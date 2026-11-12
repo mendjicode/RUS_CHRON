@@ -1,0 +1,234 @@
+[
+  {
+    "id": "medieval-commerce",
+    "title": "Торговые пути средневековой Европы",
+    "period": "Средневековье · схема 1926",
+    "eraIds": [
+      "era-02",
+      "era-03"
+    ],
+    "file": "medieval-commerce-shepherd-1926.jpg",
+    "width": 2316,
+    "height": 1868,
+    "author": "William R. Shepherd",
+    "published": "Historical Atlas, 1926, с. 98–99",
+    "sourceUrl": "https://maps.lib.utexas.edu/maps/historical/history_europe.html",
+    "imageUrl": "https://maps.lib.utexas.edu/maps/historical/shepherd/europe_mediaeval_commerce.jpg",
+    "license": "Общественное достояние",
+    "licenseUrl": "https://maps.lib.utexas.edu/maps/faq.html#3.html",
+    "interpretation": "Ретроспективная обзорная схема средневековой торговли без единого выбранного года. Она объединяет связи разных периодов и не доказывает существование каждого пути в любой момент Средневековья. Нельзя отождествлять её красные линии с точной трассой «пути из варяг в греки» IX–X веков. Новгород и Киев показаны в общей европейской сети.",
+    "legend": [
+      "Красная сплошная линия — сухопутные пути; красная штриховая — морские, по легенде автора.",
+      "Синие линии — маршруты Ганзы (Лондон), венецианцев и генуэзцев; разные виды линий различаются в оригинальной легенде.",
+      "Вставки показывают Англию и Ганзу в Северной Германии. Специальный знак легенды обозначает главные рынки и ярмарки.",
+      "Линии показывают связи и направления в авторском обобщении, а не точные дороги или непрерывные маршруты одного купца."
+    ],
+    "question": "Почему торговые связи Новгорода нельзя объяснить одной дорогой между двумя городами?",
+    "lessonIds": [
+      "02-013",
+      "03-003"
+    ],
+    "localPath": "public/assets/atlas/medieval-commerce-shepherd-1926.jpg",
+    "downloadedAt": "2026-11-12",
+    "changes": "None: original downloaded bytes",
+    "sha256": "7ce9e49646993de9813379be882c6d0863b587d25562b7043ebeda0927266025"
+  },
+  {
+    "id": "baltic-1701",
+    "title": "Балтика в начале Северной войны",
+    "period": "Около 1701",
+    "eraIds": [
+      "era-06"
+    ],
+    "file": "baltic-1701-freeman-bury-1903.jpg",
+    "width": 1142,
+    "height": 866,
+    "author": "Edward A. Freeman; редактор третьего издания J. B. Bury",
+    "published": "Atlas to Freeman’s Historical Geography, Longmans, Green & Co., 1903",
+    "sourceUrl": "https://maps.lib.utexas.edu/maps/historical/baltics.html",
+    "imageUrl": "https://maps.lib.utexas.edu/maps/historical/baltics_1701.jpg",
+    "license": "Общественное достояние",
+    "licenseUrl": "https://maps.lib.utexas.edu/maps/faq.html#3.html",
+    "interpretation": "Авторская реконструкция политической географии около 1701 года из атласа 1903 года. Она помогает сопоставить балтийский и южный театры Северной войны: на листе подписаны Нарва, Рига, Новгород и Полтава. Границы приблизительны; линия движения войска и результат войны 1721 года на этой карте не показаны. Санкт-Петербург ещё не основан.",
+    "legend": [
+      "Цветные обводки показывают политические владения в трактовке составителей.",
+      "Швеция обозначена серо-фиолетовым, Россия — розово-красным, Польша и Литва — зелёным.",
+      "Обозначения исторических владений и зависимостей не тождественны современным государственным границам."
+    ],
+    "question": "Как владения Швеции на обоих берегах Балтики влияли на задачи участников войны?",
+    "lessonIds": [
+      "06-005",
+      "06-006"
+    ],
+    "localPath": "public/assets/atlas/baltic-1701-freeman-bury-1903.jpg",
+    "downloadedAt": "2026-11-12",
+    "changes": "None: original downloaded bytes",
+    "sha256": "6859c56e8144a0eb2666e59a0115bafb81dc98f3fec22d0764715edf79b662d5"
+  },
+  {
+    "id": "europe-1000",
+    "title": "Русь и Европа около 1000 года",
+    "period": "Около 1000",
+    "eraIds": [
+      "era-01",
+      "era-02"
+    ],
+    "file": "europe-c1000-shepherd-1911.jpg",
+    "width": 1932,
+    "height": 1544,
+    "author": "William R. Shepherd; Velhagen & Klasing",
+    "published": "Historical Atlas, 1911, с. 58–59",
+    "sourceUrl": "https://maps.lib.utexas.edu/maps/historical/history_europe.html",
+    "imageUrl": "https://maps.lib.utexas.edu/maps/historical/shepherd_1911/shepherd-c-058-059.jpg",
+    "license": "Общественное достояние",
+    "licenseUrl": "https://maps.lib.utexas.edu/maps/faq.html#3.html",
+    "interpretation": "Ретроспективная реконструкция атласа 1911 года, а не карта, созданная около 1000 года. Цветовые области и границы условны: власть и расселение в Средневековье не имели точности современной государственной границы. Надпись Russia у автора обозначает средневековую Русь.",
+    "legend": [
+      "Цветовые области — политические образования в реконструкции автора.",
+      "Подписи племён и народов не означают точных государственных границ.",
+      "Пунктирные линии и остальные условные знаки сохранены в оригинале."
+    ],
+    "question": "Как положение Киева между степью, Балтикой и Византией помогает объяснить внешние связи Руси?",
+    "lessonIds": [
+      "02-003",
+      "02-008"
+    ],
+    "localPath": "public/assets/atlas/europe-c1000-shepherd-1911.jpg",
+    "downloadedAt": "2026-11-12",
+    "changes": "None: original downloaded bytes",
+    "sha256": "95cb3404603d14462b312b6dd8ebf4ab8ddc7003807f7b5d9be2572233583db2"
+  },
+  {
+    "id": "growth-1300-1796",
+    "title": "Территориальные изменения в Европе, 1300–1796",
+    "period": "1300–1796",
+    "eraIds": [
+      "era-03",
+      "era-04",
+      "era-05",
+      "era-06"
+    ],
+    "file": "russia-growth-1300-1796-shepherd-1926.jpg",
+    "width": 1864,
+    "height": 2300,
+    "author": "William R. Shepherd",
+    "published": "Historical Atlas, 1926, с. 138–139",
+    "sourceUrl": "https://maps.lib.utexas.edu/maps/historical/history_commonwealth.html",
+    "imageUrl": "https://maps.lib.utexas.edu/maps/historical/shepherd/russian_growth_1300_1796.jpg",
+    "license": "Общественное достояние",
+    "licenseUrl": "https://maps.lib.utexas.edu/maps/faq.html#3.html",
+    "interpretation": "Ретроспективная схема приращений территории, составленная в 1926 году. На одном листе совмещены несколько столетий: его нельзя читать как политическую карту одного года. Средневековые пределы и области зависимости приблизительны; формулировки атласа отражают историографию его времени.",
+    "legend": [
+      "Слева вверху — последовательность цветов по правлениям, начиная с московского княжества около 1300 года.",
+      "Отдельная легенда Partitions of Poland показывает разделы Речи Посполитой 1772, 1793 и 1795 годов.",
+      "Цвет приращения не показывает, как быстро установился контроль и как жители воспринимали смену власти."
+    ],
+    "question": "Почему один цвет на карте не объясняет ни способ присоединения, ни положение населения?",
+    "lessonIds": [
+      "04-007",
+      "06-020"
+    ],
+    "localPath": "public/assets/atlas/russia-growth-1300-1796-shepherd-1926.jpg",
+    "downloadedAt": "2026-11-12",
+    "changes": "None: original downloaded bytes",
+    "sha256": "87616cb3e5cef8d0ffadc8ad4a934ee3c19a7c253f6297a24f72bb64eccbab90"
+  },
+  {
+    "id": "empire-1820",
+    "title": "Российская империя на карте начала XIX века",
+    "period": "Издание 1820",
+    "eraIds": [
+      "era-07",
+      "era-08"
+    ],
+    "file": "russian-empire-rees-1820.jpg",
+    "width": 3155,
+    "height": 1993,
+    "author": "The Cyclopaedia, редактор Abraham Rees",
+    "published": "The Cyclopaedia, 1820 — датировка каталога библиотеки",
+    "sourceUrl": "https://maps.lib.utexas.edu/maps/historical/history_commonwealth.html",
+    "imageUrl": "https://maps.lib.utexas.edu/maps/historical/russian_empire_1820.jpg",
+    "license": "Общественное достояние",
+    "licenseUrl": "https://maps.lib.utexas.edu/maps/faq.html#3.html",
+    "interpretation": "Подлинный картографический документ XIX века. Дата издания не гарантирует, что каждая граница была обновлена к 1820 году. Исторические названия и изображение приграничных областей сохранены; лист не используется для утверждения современных территориальных прав.",
+    "legend": [
+      "На листе видны города, реки, моря и региональные подписи на английском языке.",
+      "Градусная сетка и проекция отличаются от современной физической карты приложения.",
+      "Тонкие линии и штриховка читаются по оригиналу; современная векторная граница поверх них не нанесена."
+    ],
+    "question": "Какие трудности управления пространством можно предположить по расстояниям между центром и окраинами?",
+    "lessonIds": [
+      "07-001",
+      "07-007"
+    ],
+    "localPath": "public/assets/atlas/russian-empire-rees-1820.jpg",
+    "downloadedAt": "2026-11-12",
+    "changes": "None: original downloaded bytes",
+    "sha256": "1a96e6613ab932a9d1b8b068b74300dd8041710671556e77c3e742bf202db0e0"
+  },
+  {
+    "id": "minard-1812",
+    "title": "Наступление и отступление в кампании 1812 года",
+    "period": "1812 · реконструкция 1869",
+    "eraIds": [
+      "era-07"
+    ],
+    "file": "minard-russian-campaign-1869.png",
+    "width": 2003,
+    "height": 955,
+    "author": "Charles Joseph Minard (1781–1870)",
+    "published": "Париж, 20 ноября 1869 года",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minard.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png",
+    "license": "Общественное достояние · автор умер в 1870 году",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Minard.png#Licensing",
+    "interpretation": "Знаменитая статистическая реконструкция Минара, созданная через 57 лет после похода. Полосы обобщают направления и численность выбранных частей армии; это не точная дорога каждого подразделения. Авторские оценки численности не заменяют современных исследований потерь.",
+    "legend": [
+      "Светлая полоса — движение к Москве; чёрная — возвращение.",
+      "Ширина полос пропорциональна числу людей по данным Минара. Изменение ширины не равно только числу убитых.",
+      "Нижний график — температура во время отступления в градусах Реомюра, а не Цельсия (°C = °Ré × 1,25)."
+    ],
+    "question": "Почему сокращение полосы нельзя объяснить одним морозом или считать числом погибших в бою?",
+    "lessonIds": [
+      "07-004"
+    ],
+    "localPath": "public/assets/atlas/minard-russian-campaign-1869.png",
+    "downloadedAt": "2026-11-12",
+    "changes": "None: original downloaded bytes",
+    "sha256": "8d48041171daa9d9a29bb97a7c69855f863b286d55f752779fd2bf3c25b41da6"
+  },
+  {
+    "id": "ussr-1989",
+    "title": "Союзные республики и автономии СССР",
+    "period": "1989",
+    "eraIds": [
+      "era-09",
+      "era-10"
+    ],
+    "file": "ussr-administrative-1989-cia.jpg",
+    "width": 1887,
+    "height": 1313,
+    "author": "Central Intelligence Agency (CIA), США",
+    "published": "Soviet Union: Administrative Divisions, 1989; номер 800656 (545499), 10-89",
+    "sourceUrl": "https://maps.lib.utexas.edu/maps/commonwealth.html",
+    "imageUrl": "https://maps.lib.utexas.edu/maps/commonwealth/soviet_union_admin_1989.jpg",
+    "license": "Общественное достояние · работа федерального ведомства США",
+    "licenseUrl": "https://www.cia.gov/site-policies/#copyright-notice",
+    "interpretation": "Современный своему времени обзор административного устройства СССР 1989 года, не карта всех лет существования Союза. На оригинале прямо указана позиция США о непризнании включения Эстонии, Латвии и Литвы в СССР; прочие границы названы не обязательно авторитетными. Эта оговорка сохранена и относится к составителю карты.",
+    "legend": [
+      "Цветовые области — союзные республики (SSR); кружки — их административные центры.",
+      "Сплошная внутренняя линия — граница автономной республики, области или края.",
+      "Штриховая линия — граница автономной области или автономного округа.",
+      "Карта 1989 года помогает изучать состав Союза перед распадом; политические события 1991 года изучаются отдельно."
+    ],
+    "question": "Чем союзная республика отличалась от автономной и почему это важно для событий 1991 года?",
+    "lessonIds": [
+      "09-040",
+      "10-001"
+    ],
+    "localPath": "public/assets/atlas/ussr-administrative-1989-cia.jpg",
+    "downloadedAt": "2026-11-12",
+    "changes": "None: original downloaded bytes",
+    "sha256": "3d8b1823c96d6236c159dacd6aec728394efdf198f8280783a71adf604e784ff"
+  }
+]

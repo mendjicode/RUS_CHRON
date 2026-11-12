@@ -1,0 +1,356 @@
+[
+  {
+    "id": "09-001",
+    "mainWords": 512,
+    "deepWords": 110,
+    "status": "written"
+  },
+  {
+    "id": "09-002",
+    "mainWords": 745,
+    "deepWords": 140,
+    "status": "written"
+  },
+  {
+    "id": "09-003",
+    "mainWords": 513,
+    "deepWords": 110,
+    "status": "written"
+  },
+  {
+    "id": "09-004",
+    "mainWords": 508,
+    "deepWords": 109,
+    "status": "written"
+  },
+  {
+    "id": "09-005",
+    "mainWords": 512,
+    "deepWords": 109,
+    "status": "written"
+  },
+  {
+    "id": "09-006",
+    "mainWords": 781,
+    "deepWords": 141,
+    "status": "written"
+  },
+  {
+    "id": "09-007",
+    "mainWords": 714,
+    "deepWords": 131,
+    "status": "written"
+  },
+  {
+    "id": "09-008",
+    "mainWords": 517,
+    "deepWords": 109,
+    "status": "written"
+  },
+  {
+    "id": "09-009",
+    "mainWords": 514,
+    "deepWords": 110,
+    "status": "written"
+  },
+  {
+    "id": "09-010",
+    "mainWords": 522,
+    "deepWords": 112,
+    "status": "written"
+  },
+  {
+    "id": "09-011",
+    "mainWords": 516,
+    "deepWords": 112,
+    "status": "written"
+  },
+  {
+    "id": "09-012",
+    "mainWords": 748,
+    "deepWords": 137,
+    "status": "written"
+  },
+  {
+    "id": "09-013",
+    "mainWords": 519,
+    "deepWords": 107,
+    "status": "written"
+  },
+  {
+    "id": "09-014",
+    "mainWords": 523,
+    "deepWords": 114,
+    "status": "written"
+  },
+  {
+    "id": "09-015",
+    "mainWords": 773,
+    "deepWords": 127,
+    "status": "written"
+  },
+  {
+    "id": "09-016",
+    "mainWords": 519,
+    "deepWords": 106,
+    "status": "written"
+  },
+  {
+    "id": "09-017",
+    "mainWords": 519,
+    "deepWords": 114,
+    "status": "written"
+  },
+  {
+    "id": "09-018",
+    "mainWords": 526,
+    "deepWords": 117,
+    "status": "written"
+  },
+  {
+    "id": "09-019",
+    "mainWords": 518,
+    "deepWords": 105,
+    "status": "written"
+  },
+  {
+    "id": "09-020",
+    "mainWords": 503,
+    "deepWords": 101,
+    "status": "written"
+  },
+  {
+    "id": "09-021",
+    "mainWords": 527,
+    "deepWords": 110,
+    "status": "written"
+  },
+  {
+    "id": "09-022",
+    "mainWords": 526,
+    "deepWords": 105,
+    "status": "written"
+  },
+  {
+    "id": "09-023",
+    "mainWords": 528,
+    "deepWords": 107,
+    "status": "written"
+  },
+  {
+    "id": "09-024",
+    "mainWords": 521,
+    "deepWords": 105,
+    "status": "written"
+  },
+  {
+    "id": "09-025",
+    "mainWords": 535,
+    "deepWords": 110,
+    "status": "written"
+  },
+  {
+    "id": "09-026",
+    "mainWords": 543,
+    "deepWords": 108,
+    "status": "written"
+  },
+  {
+    "id": "09-027",
+    "mainWords": 534,
+    "deepWords": 109,
+    "status": "written"
+  },
+  {
+    "id": "09-028",
+    "mainWords": 531,
+    "deepWords": 112,
+    "status": "written"
+  },
+  {
+    "id": "09-029",
+    "mainWords": 542,
+    "deepWords": 113,
+    "status": "written"
+  },
+  {
+    "id": "09-030",
+    "mainWords": 540,
+    "deepWords": 108,
+    "status": "written"
+  },
+  {
+    "id": "09-031",
+    "mainWords": 521,
+    "deepWords": 125,
+    "status": "written"
+  },
+  {
+    "id": "09-032",
+    "mainWords": 528,
+    "deepWords": 129,
+    "status": "written"
+  },
+  {
+    "id": "09-033",
+    "mainWords": 542,
+    "deepWords": 127,
+    "status": "written"
+  },
+  {
+    "id": "09-034",
+    "mainWords": 532,
+    "deepWords": 126,
+    "status": "written"
+  },
+  {
+    "id": "09-035",
+    "mainWords": 532,
+    "deepWords": 124,
+    "status": "written"
+  },
+  {
+    "id": "09-036",
+    "mainWords": 536,
+    "deepWords": 130,
+    "status": "written"
+  },
+  {
+    "id": "09-037",
+    "mainWords": 526,
+    "deepWords": 121,
+    "status": "written"
+  },
+  {
+    "id": "09-038",
+    "mainWords": 529,
+    "deepWords": 128,
+    "status": "written"
+  },
+  {
+    "id": "09-039",
+    "mainWords": 523,
+    "deepWords": 124,
+    "status": "written"
+  },
+  {
+    "id": "09-040",
+    "mainWords": 790,
+    "deepWords": 130,
+    "status": "written"
+  },
+  {
+    "id": "09-041",
+    "mainWords": 525,
+    "deepWords": 130,
+    "status": "written"
+  },
+  {
+    "id": "09-042",
+    "mainWords": 525,
+    "deepWords": 124,
+    "status": "written"
+  },
+  {
+    "id": "09-043",
+    "mainWords": 530,
+    "deepWords": 120,
+    "status": "written"
+  },
+  {
+    "id": "09-044",
+    "mainWords": 524,
+    "deepWords": 122,
+    "status": "written"
+  },
+  {
+    "id": "09-045",
+    "mainWords": 525,
+    "deepWords": 123,
+    "status": "written"
+  },
+  {
+    "id": "09-046",
+    "mainWords": 516,
+    "deepWords": 133,
+    "status": "written"
+  },
+  {
+    "id": "09-047",
+    "mainWords": 527,
+    "deepWords": 120,
+    "status": "written"
+  },
+  {
+    "id": "09-048",
+    "mainWords": 537,
+    "deepWords": 126,
+    "status": "written"
+  },
+  {
+    "id": "09-049",
+    "mainWords": 538,
+    "deepWords": 126,
+    "status": "written"
+  },
+  {
+    "id": "09-050",
+    "mainWords": 535,
+    "deepWords": 121,
+    "status": "written"
+  },
+  {
+    "id": "09-051",
+    "mainWords": 528,
+    "deepWords": 120,
+    "status": "written"
+  },
+  {
+    "id": "09-052",
+    "mainWords": 544,
+    "deepWords": 131,
+    "status": "written"
+  },
+  {
+    "id": "09-053",
+    "mainWords": 530,
+    "deepWords": 132,
+    "status": "written"
+  },
+  {
+    "id": "09-054",
+    "mainWords": 538,
+    "deepWords": 125,
+    "status": "written"
+  },
+  {
+    "id": "09-055",
+    "mainWords": 532,
+    "deepWords": 129,
+    "status": "written"
+  },
+  {
+    "id": "09-056",
+    "mainWords": 550,
+    "deepWords": 120,
+    "status": "written"
+  },
+  {
+    "id": "09-057",
+    "mainWords": 538,
+    "deepWords": 126,
+    "status": "written"
+  },
+  {
+    "id": "09-058",
+    "mainWords": 542,
+    "deepWords": 126,
+    "status": "written"
+  },
+  {
+    "id": "09-059",
+    "mainWords": 547,
+    "deepWords": 130,
+    "status": "written"
+  }
+]
