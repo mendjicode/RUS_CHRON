@@ -13,11 +13,11 @@ const people=[...await json('src/content/people.json'),...await json('src/conten
 const questions=lessons.flatMap(l=>l.questions);const events=lessons.flatMap(l=>l.dates);
 const words=lessons.reduce((n,l)=>n+l.sections.flatMap(s=>s.paragraphs).join(' ').split(/\s+/).length,0);
 const byId=new Map(lessons.map(l=>[l.id,l]));
-const checks=await json('tasks/001-russian-history-course/final-checks.json').catch(()=>null) as null|{unitTests:number;browserTests:number;precache:number;windows?:string};
+const checks=await json('tasks/001-russian-history-course/final-checks.json').catch(()=>null) as null|{unitTests:number;browserTests:number;precache:number;windows?:string;installerUrl?:string;qualityRun?:string;windowsRun?:string};
 const state=`Уроки: ${lessons.length}/${plan.length}; задания: ${questions.length}; понятия: ${terms.length}; биографии: ${people.length}; хронологические записи: ${events.length}. Объём основного текста (слов): ${words.toLocaleString('ru')}, без простого/углублённого режимов и упражнений.`;
 const latestInformationAsOf=lessons.map(l=>l.informationAsOf).filter((d):d is string=>!!d).sort().at(-1)??'2026-02-16';
 const audit=`Все материалы имеют статус «написан»: выборочная сверка источников и технические проверки выполнены, полная построчная научная и методическая редактура не завершена. Наличие ссылки не выдаётся за подтверждение каждой фразы. Основной современный разбор опирается на февральские документы 2026 года; последнее отдельно датированное дополнение — ${latestInformationAsOf}. Дата обновления приложения не расширяет охват каждого источника.`;
-const validation=checks?`Проверки финального состояния: ${checks.unitTests} автоматических тестов; TypeScript и production build; ${checks.precache} локальных ресурсов в офлайн-кэше; ${checks.browserTests} сценариев Chromium, включая открытие каждого урока, перезагрузку данных и работу без сети. ${checks.windows??'Windows: новый workflow включает сборку, тихую установку NSIS и запуск установленного приложения; результат конкретного запуска указан в отчёте GitHub Actions.'}`:'Результаты выполненных проверок записываются в docs/QA.md и папке задачи. Проверки после последних изменений ещё не объявлены пройденными.';
+const validation=checks?`Проверки финального состояния: ${checks.unitTests} автоматических тестов; TypeScript и production build; локальных ресурсов в офлайн-кэше: ${checks.precache}; ${checks.browserTests} сценариев Chromium, включая открытие каждого урока, перезагрузку данных и работу без сети. ${checks.windows??'Windows: новый workflow включает сборку, тихую установку NSIS и запуск установленного приложения; результат конкретного запуска указан в отчёте GitHub Actions.'}`:'Результаты выполненных проверок записываются в docs/QA.md и папке задачи. Проверки после последних изменений ещё не объявлены пройденными.';
 function tidyProse(body:string):string{
  const terms='Windows|Electron|Node\\.js|IndexedDB|JSON|React|TypeScript|Vite|Tailwind|Motion|Lucide|Router|Zustand|Recharts|PWA|NSIS|GitHub|Chromium|Firefox|Python|CSS|HTML|CI|Ctrl|Esc|SSR|DPPA|OHCHR|CRS|IMF|NARA';
  const protectedParts=/(```[\s\S]*?```|`[^`\n]+`|https?:\/\/[^\s)>]+)/g;
@@ -63,6 +63,8 @@ npm run dist:win
 \`\`\`
 
 Собирать установщик следует на Windows. Готовый файл сохраняется в\`release/\`. В GitHub Actions workflow **Windows installer** создаёт артефакт\`rus-chron-windows\` после успешного **Quality checks**. Проверяется тихая установка и запуск установленного приложения с записью/перезагрузкой заметки в отдельном профиле. [Сборки GitHub Actions](https://github.com/mendjicode/RUS_CHRON/actions) · [инструкция](docs/WINDOWS.md).
+
+${checks?.installerUrl?`[Скачать проверенный установщик Windows (ZIP с .exe)](${checks.installerUrl})`:''}
 
 ## Проверки
 
@@ -173,6 +175,8 @@ await snapshot('docs/QA.md',`# Проверки —${date}
 ${state}
 
 ${validation}
+
+${checks?.qualityRun?`[Успешные проверки кода и Chromium](${checks.qualityRun}) · [Успешная установка и запуск Windows](${checks.windowsRun})`:''}
 
 ## Что проверяется
 

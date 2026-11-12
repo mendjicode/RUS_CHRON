@@ -3,5 +3,10 @@
   "unitTests": 339,
   "browserTests": 6,
   "precache": 33,
-  "windows": "Windows: сборка, тихая установка NSIS и запуск установленного приложения ожидают выполнения нового workflow в GitHub Actions."
+  "windows": "Windows installer успешно собран, тихо установлен и запущен на Windows. Проверены урок, восстановление заметки после перезагрузки и полный локальный лист атласа.",
+  "validatedCodeCommit": "dc4866a99cd6f180f2b21c05384312f1acff1fc4",
+  "qualityRun": "https://github.com/mendjicode/RUS_CHRON/actions/runs/43318639039",
+  "windowsRun": "https://github.com/mendjicode/RUS_CHRON/actions/runs/43318936955",
+  "installerUrl": "https://github.com/mendjicode/RUS_CHRON/actions/runs/43318936955/artifacts/13988434702",
+  "windowsChecksUrl": "https://github.com/mendjicode/RUS_CHRON/actions/runs/43318936955/artifacts/13988749041"
 }

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-13",
+  "lessons": 291,
+  "mainWords": 160584,
+  "minimumMainWords": 424,
+  "minimumDeepWords": 100,
+  "questions": 1151,
+  "questionTypes": {
+    "cause": 161,
+    "order": 122,
+    "text": 344,
+    "single": 278,
+    "multiple": 166,
+    "match": 18,
+    "source": 50,
+    "fill": 7,
+    "map": 5
+  },
+  "sharedLongParagraphs": []
+}
